@@ -26,6 +26,13 @@
         <script src="04_trials.js"></script>
         <script src="05_views.js"></script>
         <script src="06_main.js"></script>
+        <!-- Disable copy/cut/paste across the whole experiment -->
+        <script>
+        document.addEventListener("copy", function(e) { e.preventDefault(); });
+        document.addEventListener("cut", function(e) { e.preventDefault(); });
+        document.addEventListener("paste", function(e) { e.preventDefault(); });
+        </script>
+
     </head>
 
     <body>

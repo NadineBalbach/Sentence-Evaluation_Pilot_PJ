@@ -65,6 +65,16 @@ const custom_posttest_generator = {
                     </p>
 
                     <p class='magpie-view-text'>
+                        <label for="handedness">Händigkeit:</label>
+                        <select id="handedness" name="handedness">
+                            <option></option>
+                            <option value="rechtshändig">rechtshändig</option>
+                            <option value="linkshändig">linkshändig</option>
+                            <option value="beidhändig">beidhändig</option>
+                        </select>
+                    </p>
+
+                    <p class='magpie-view-text'>
                         <label for="languages" name="languages">${quest.langs.title}:<br /><span>${quest.langs.text}</</span></label>
                         <input type="text" id="languages"/>
                     </p>
@@ -77,16 +87,19 @@ const custom_posttest_generator = {
                     <p class="magpie-view-text">
                         <label for="aufgefallen">Was ist Ihnen aufgefallen?</label>
                         <textarea name="aufgefallen" id="aufgefallen" rows="6" cols="40"></textarea>
+                        <p class="magpie-ai-notice">Bitte antworten Sie mit Ihren eigenen Worten. Benutzen Sie keine AI/KI oder externe Webseiten; wir sind an Ihrer eigenen Meinung interessiert. Die Beantwortung mit Bots würde unsere Ergebnisse verfälschen und uns nicht weiterhelfen.</p>
                     </p>
 
                     <p class="magpie-view-text">
                         <label for="anmerkung">Worum ging es in dem Experiment? (Wenn Sie nicht sicher sind, raten Sie)</label>
                         <textarea name="anmerkung" id="anmerkung" rows="6" cols="40"></textarea>
+                        <p class="magpie-ai-notice">Bitte antworten Sie mit Ihren eigenen Worten. Benutzen Sie keine AI/KI oder externe Webseiten; wir sind an Ihrer eigenen Meinung interessiert. Die Beantwortung mit Bots würde unsere Ergebnisse verfälschen und uns nicht weiterhelfen.</p>
                     </p>
 
                     <p class="magpie-view-text">
                         <label for="comments">${quest.comments.title}</label>
                         <textarea name="comments" id="comments" rows="6" cols="40"></textarea>
+                        <p class="magpie-ai-notice">Bitte antworten Sie mit Ihren eigenen Worten. Benutzen Sie keine AI/KI oder externe Webseiten; wir sind an Ihrer eigenen Meinung interessiert. Die Beantwortung mit Bots würde unsere Ergebnisse verfälschen und uns nicht weiterhelfen.</p>
                     </p>
                     <button id="next" class='magpie-view-button'>${config.button}</button>
             </form>`;
@@ -106,13 +119,14 @@ const custom_posttest_generator = {
       e.preventDefault();
 
       // records the post test info
-      // magpie.global_data.mainTrialList = list;
+      // magpie.global_data.mainTrialList = list; // not needed for the pilot; likely needed again for the full experiment later
       magpie.global_data.age = $("#age").val();
       magpie.global_data.gender = $("#gender").val();
       magpie.global_data.education = $("#education").val();
       magpie.global_data.Fachrichtung = $("#Fachrichtung").val();
       magpie.global_data.Studiengang = $("#Studiengang").val();
       magpie.global_data.Studienabschluss = $("#Studienabschluss").val();
+      magpie.global_data.handedness = $("#handedness").val();
       magpie.global_data.languages = $("#languages").val();
       magpie.global_data.languages2 = $("#languages2").val();
       magpie.global_data.aufgefallen = $("#aufgefallen").val();
@@ -154,7 +168,7 @@ const custom_consentform_generator = {
 					         <div class="checkbox">
     				           <label for="2" >
         	              <input type="checkbox" class="box" name="zweite" value="checked" unchecked onclick="handler" id="2"/>
-        	               Ich willige ein, an dem Sentence-Evaluation-Experiment V teilzunehmen.
+        	               Ich willige ein, am Sentence-Evaluation-Experiment V teilzunehmen.
                        </label>
 					         </div>
 					    </p>
@@ -176,7 +190,7 @@ const custom_consentform_generator = {
                         Mir ist bekannt, dass ich mein Einverständnis auch während des Experimentes vor Betätigen des letzten Buttons „CONFIRM“ widerrufen kann.
                         Wenn ich vor Betätigung dieses Buttons das Experiment abbreche, werden meinen Daten nicht gespeichert.
                         Ich weiß, dass ich in diesem Fall Anspruch auf eine Vergütung für die bis dahin erbrachte Zeit habe.
-                        Es gilt der Stundensatz von 8 Euro pro Stunde. Falls ich vorzeitig abbreche, melde ich mich per E-Mail oder über Prolific beim Versuchsdurchführenden.
+                        Es gilt der Stundensatz von 12 £. Falls ich vorzeitig abbreche, melde ich mich per E-Mail oder über Prolific beim Versuchsdurchführenden.
         	              </label>
 					         </div>
 					    </p>
@@ -202,7 +216,7 @@ const custom_consentform_generator = {
     				      <div class="checkbox">
     				          <label for="7" >
         	             <input type="checkbox" class="box" name="siebte" value="checked" unchecked onclick="handler" id="7"/>
-        	              Bis zur Datenauswertung und der darin anschließenden Löschung meiner Prolific ID, die spätestens am 31.12.2024 erfolgt,
+        	              Bis zur Datenauswertung und der darin anschließenden Löschung meiner Prolific ID, die spätestens am 31.12.2027 erfolgt,
                         habe ich die Möglichkeit, jederzeit die Löschung meiner Daten durch das Senden einer E-Mail an oder einer Nachricht über Prolific zu verlangen.
                       </label>
                   </div>
@@ -211,7 +225,7 @@ const custom_consentform_generator = {
     				      <div class="checkbox">
     				          <label for="8">
         	             <input type="checkbox" class="box" name="achte" value="checked" unchecked onclick="handler" id="8"/>
-        	              Sobald meine Prolific ID aus meinen Daten gelöscht wurde, was spätestens am 31.12.2024 erfolgt,
+        	              Sobald meine Prolific ID aus meinen Daten gelöscht wurde, was spätestens am 31.12.2027 erfolgt,
                         sind meine Daten anonymisiert und nicht mehr identifizierbar.
                         Ich kann dann keine Löschung meiner Daten mehr verlangen.
                       </label>
@@ -244,7 +258,14 @@ const custom_consentform_generator = {
               <p class='magpie-view-text'  >
                 <div class="tabelle">
                 <p> Bei Fragen oder anderen Anliegen kann ich mich an folgende Personen wenden: </p>
-
+                <p>Nadine Balbach<br/>
+                Wissenschaftliche Mitarbeiterin<br/>
+                Assoziiert mit SFB 1718 Common Ground<br/>
+                Seminar für Sprachwissenschaft<br/>
+                Universität Tübingen<br/>
+                Keplerstr. 2, 72074, Tübingen<br/>
+                (+49) 7071 29-75665<br/>
+                nadine.balbach@uni-tuebingen.de</p>
                 </div>
               </p>
               <p class='magpie-view-text'  >
@@ -328,7 +349,7 @@ const custom_group_id_generator = {
       magpie.global_data.groupId = $("#groupId")
         .val()
         .trim();
-      magpie.global_data.mainTrialList = list;
+      // magpie.global_data.mainTrialList = list; // not needed for the pilot; likely needed again for the full experiment later
       magpie.global_data.endTime = Date.now();
       magpie.global_data.timeSpent =
         (magpie.global_data.endTime - magpie.global_data.startTime) / 60000;
@@ -389,9 +410,10 @@ function comment_box_gen(config, CT) {
     if (!config.data[CT].showComment) {
         return '';
     }
-    return `<div class="magpie-comment-container">
-                <p class="magpie-view-question">Warum haben Sie bei dieser Frage so geantwortet? Was ist Ihnen durch den Kopf gegangen?</p>
-                <textarea id="itemComment" class="magpie-comment-textarea" rows="4" placeholder="Ihre Gedanken (freiwillig)"></textarea>
+    return `<div class="magpie-comment-container magpie-nodisplay" id="commentContainer">
+                <p class="magpie-view-question">Warum haben Sie bei dieser Frage so bewertet? Was ist Ihnen durch den Kopf gegangen?</p>
+                <textarea id="itemComment" class="magpie-comment-textarea" rows="4" placeholder="Ihre Gedanken"></textarea>
+                <p class="magpie-ai-notice">Bitte antworten Sie mit Ihren eigenen Worten. Benutzen Sie keine AI/KI oder externe Webseiten; wir sind an Ihrer eigenen Meinung interessiert. Die Beantwortung mit Bots würde unsere Ergebnisse verfälschen und uns nicht weiterhelfen.</p>
             </div>`;
 }
 
@@ -463,6 +485,49 @@ slider_rating: function(config, CT, magpie, answer_container_generator, starting
     });
 },
 
+attention_check: function(config, CT, magpie, answer_container_generator, startingTime){
+    let response;
+
+    $(".magpie-view").append(answer_container_generator(config, CT));
+
+    response = $("#response");
+    response.on("change", function() {
+        $("#next").removeClass("magpie-nodisplay");
+    });
+    response.on("click", function() {
+        $("#next").removeClass("magpie-nodisplay");
+    });
+
+    $("#next").on("click", function() {
+        const RT = Date.now() - startingTime;
+        const val = parseFloat(response.val());
+        const passed = val >= config.data[CT].checkMin && val <= config.data[CT].checkMax;
+
+        let trial_data = {
+            trial_name: config.name,
+            trial_number: CT + 1,
+            response: response.val(),
+            RT: RT,
+            attention_check_passed: passed
+        };
+
+        trial_data = magpieUtils.view.save_config_trial_data(config.data[CT], trial_data);
+        magpie.trial_data.push(trial_data);
+
+        // Only evaluate once both attention checks have been answered.
+        // Prolific policy: screen out only if BOTH (two different) checks failed.
+        if (CT === config.trials - 1) {
+            const relevant = magpie.trial_data.filter(d => d.trial_name === config.name);
+            const failedCount = relevant.filter(d => d.attention_check_passed === false).length;
+            if (failedCount >= config.trials) {
+                window.location.href = "PROLIFIC_FAILED_ATTENTION_CHECK_URL";
+                return;
+            }
+        }
+        magpie.findNextView();
+    });
+},
+
 slider_rating_main: function(config, CT, magpie, answer_container_generator, startingTime){
     let response;
 
@@ -473,9 +538,11 @@ slider_rating_main: function(config, CT, magpie, answer_container_generator, sta
     // checks if the slider has been changed
     response.on("change", function() {
         $("#next").removeClass("magpie-nodisplay");
+        $("#commentContainer").removeClass("magpie-nodisplay");
     });
     response.on("click", function() {
         $("#next").removeClass("magpie-nodisplay");
+        $("#commentContainer").removeClass("magpie-nodisplay");
     });
 
 

@@ -27,7 +27,11 @@ const intro = magpieViews.view_generator("intro", {
       Bitte schließen Sie jetzt alle im Hintergrund laufenden Programme oder Anwendungen
       und lassen Sie diese bis zum Ende der Studie geschlossen.
       Schalten Sie bitte auch ihr Mobilfunkgerät / Smartphone aus.
-      Bitte konzentrieren Sie sich so gut wie möglich.</p>`,
+      Bitte konzentrieren Sie sich so gut wie möglich.</p>
+      <p><strong>Wichtiger Hinweis:</strong> Bitte bearbeiten Sie das Experiment eigenständig und ohne Zuhilfenahme von
+      KI-Anwendungen (z.\u00a0B. ChatGPT oder ähnliche Tools). Unsere Studie untersucht, wie Menschen Sprache verstehen und
+      bewerten - von einer KI erzeugte Antworten würden unsere Ergebnisse verfälschen und wären für unsere Forschung nicht
+      verwertbar. Bitte antworten Sie daher ausschließlich anhand Ihrer eigenen, persönlichen Einschätzung.</p>`,
   // If you use JavaScripts Template String `I am a Template String`, you can use HTML <></> and javascript ${} inside
   title: `Herzlich willkommen zu unserem Experiment!`,
   buttonText: "Weiter"
@@ -37,44 +41,43 @@ const participantInfo = magpieViews.view_generator("instructions", {
   trials: 1,
   name: "information_participant",
   text: `<p>Liebe/r Studienteilnehmer/in,</p>
-		<p>unsere Arbeitsgruppe beschäftigt sich mit der <strong>Verarbeitung von Sätzen im Deutschen</strong>. <br/>
+		<p>wir beschäftigen uns mit der <strong>Verarbeitung von Sätzen im Deutschen</strong>. <br/>
 		Daf&uuml;r suchen wir <u>Erwachsene zwischen 18 und 36 Jahren mit Deutsch als Muttersprache</u>, die an unserer Studie teilnehmen.<br/>
 		Die Teilnahme ist freiwillig.</p>
 		<p>&nbsp;</p>
 		<p><strong>Was wird untersucht?</strong></p>
-		<p>Diese Studie dient dazu herauszufinden, wie Muttersprachler unterschiedliche Frageinhalte in Bezug auf zuvor gelesene Fragen bewerten.
+		<p>Diese Studie dient dazu herauszufinden, wie Muttersprachler unterschiedliche Frageinhalte in Bezug auf zuvor gelesene Äußerungen bewerten.
     Mithilfe dieser Bewertungen versuchen wir theoretische Annahmen linguistischer Phänomene experimentell zu untersuchen.
     Falls Sie mehr über die Studie erfahren möchten, können Sie im Anschluss an das Experiment eine E-Mail an nadine.balbach@uni-tuebingen.de senden.
     </p>
 		<p>&nbsp;</p>
 		<p>Bei dieser Durchführung handelt es sich um eine <strong>Pilotstudie</strong>. Ziel ist es, das Studiendesign sowie die verwendeten Sätze und Formulierungen
     vorab zu überprüfen, bevor die eigentliche Hauptstudie durchgeführt wird. Ihre Teilnahme hilft uns dabei herauszufinden, ob der Ablauf verständlich ist
-    und die Sätze wie beabsichtigt funktionieren.</p>
+    und die Sätze bzw. Fragen wie beabsichtigt funktionieren.</p>
 		<p>&nbsp;</p>
 		<p><strong>Wie sieht der allgemeine Ablauf aus?</strong></p>
-		<p>Nachdem Sie sich alle Punkte der Einverständniserklärung auf der kommenden Seite durchgelesen und angeklickt haben, <br/>
-		können Sie an der Untersuchung teilnehmen.<br/>
+		<p>Nachdem Sie alle Punkte der Einverständniserklärung auf der kommenden Seite durchgelesen und angeklickt haben sowie zwei kurze Kontrollfragen beantwortet haben, können Sie an der Untersuchung teilnehmen.<br/>
 		Das Experiment dauert ca. eine halbe Stunde.<br/>
-		Hierfür werden Sie insgesamt ${main_trial_new.length} Fragen zu ca. 48 kurzen Texten lesen und jeweils eine Bewertung dazu abgeben (zu jedem Text werden Ihnen dabei nacheinander mehrere Fragen gestellt, der Text bleibt dabei oben auf der Seite stehen).
-    Zusätzlich zu der Bewertung erheben wir die Zeit, die Sie jeweils zum Lesen der Frage und der Bewertung benötigen. <br/>
+		Hierfür werden Sie insgesamt 48 Äußerungen lesen. Bei jeder dieser Äußerungen werden Ihnen 2-3 Fragen gestellt, zu denen Sie jeweils eine Beurteilung abgeben.
+    Zusätzlich zu der Beurteilung erheben wir die Zeit, die Sie zum Lesen der Fragen und der Beurteilung benötigen. <br/>
 		Das Vorgehen wird Ihnen noch einmal genauer am PC mit Hilfe von zwei Übungsdurchgängen erläutert.<br/>
     Im Anschluss an das Experiment bitten wir Sie, noch ein paar personenbezogene Fragen zu Alter, Geschlecht, Händigkeit,
     sprachlichem Hintergrund, Bildung, Fragen zum Studium sowie eigene Kommentare zum Experiment am PC auszufüllen.
-    Bei einigen wenigen, zufällig ausgewählten Fragen werden Sie zusätzlich gebeten, kurz in ein paar Worten zu kommentieren,
+    Bei einigen wenigen, zufällig ausgewählten Äußerungen werden Sie zusätzlich gebeten, kurz in ein paar Worten zu kommentieren,
     warum Sie so geantwortet haben bzw. was Sie sich dabei gedacht haben. Das dient uns zum besseren Verständnis Ihrer Antworten
-    und tritt bewusst nur bei einigen wenigen, zufällig ausgewählten Fragen auf - nicht bei jedem.</p>
-		<p>Als Dankeschön für die Teilnahme erhalten Sie 4 Euro für eine halbe Stunde (Stundensatz 8 Euro pro Stunde).<br/>
+    und tritt bewusst nur bei einigen wenigen, zufällig ausgewählten Äußerungen auf - nicht bei allen.</p>
+		<p>Als Dankeschön für die Teilnahme erhalten Sie 6 £ für eine halbe Stunde (Stundensatz 12 £ pro Stunde).<br/>
 		</p>
 		<p>&nbsp;</p>
 		<p><strong>Was geschieht mit den Daten?</strong></p>
 		<p>Im Rahmen der Studie werden personenbezogene Daten (Alter, Geschlecht, Händigkeit, sprachlicher Hintergrund, Bildung und Fragen zum Studium sowie eigene Kommentare zum Experiment)
     sowie Ihre Prolific ID erhoben und verarbeitet.<br/>
-		Diese personenbezogenen Daten werden zusammen mit den Antworten im Experiment auf einem Server der Universität Osnabrück abgespeichert.<br/>
+		Diese personenbezogenen Daten werden zusammen mit den Antworten im Experiment auf einem Server der Universität Tübingen abgespeichert.<br/>
 		IP-Adressen, MAC-Adressen oder Ortungs-Daten sind im Rahmen der Studien nicht relevant und werden demnach nicht erhoben.<br/>
 		Sie haben die Möglichkeit, die Löschung Ihrer Daten zu veranlassen, indem Sie uns zusammen mit der Angabe Ihrer Prolific ID eine E-Mail an nadine.balbach@uni-tuebingen.de oder eine Nachricht über Prolific senden.<br/>
-		Die Löschung der Prolific ID erfolgt nach Datenauswertung spätestens am 31.12.2022.<br/>
-    <p>Bis die Daten vollständig anonymisiert sind, haben nur Mitarbeiter der Arbeitsgruppen der Projektleiter und Projektmitarbeiter des Projektes B2 Zugriff.
-    Die Mitarbeiter der Arbeitsgruppen der Projektleiter und Projektmitarbeiter des Projektes B2 unterliegen der Schweigepflicht und dem Datenschutz.</p>
+		Die Löschung der Prolific ID erfolgt nach Datenauswertung spätestens am 31.12.2027.<br/>
+    <p>Bis die Daten vollständig anonymisiert sind, haben nur Mitarbeiter der Arbeitsgruppe von Professor Dr. Michael Franke und die von ihm/ihr betreuten Doktorand:innen und PostDocs Zugriff.
+    </p>
 		<p>Sobald Ihre Prolific ID gelöscht ist, ist ihr Datensatz anonymisiert und kann dann nicht mehr gelöscht werden.</p>
 		<p>Die anonymisierten Daten werden mindestens 10 Jahre gespeichert und können für zukünftige Forschungsvorhaben genutzt und weiterverarbeitet werden.<br/>
 		Die Forschungsergebnisse aus der Studie werden in anonymisierter Form in Fachzeitschriften oder in wissenschaftlichen Datenbanken veröffentlicht.<br/>
@@ -97,8 +100,14 @@ const participantInfo = magpieViews.view_generator("instructions", {
 		<p>&nbsp;</p>
 		<p>&nbsp;</p>
 		<p>Mit freundlichen Grüßen</p>
-		<p></p>
-		<p>Wissenschaftliche Mitarbeiterin<br />--<br /><br /><br /><br />
+		<p>Nadine Balbach</p>
+		<p>Wissenschaftliche Mitarbeiterin<br />
+		Assoziiert mit SFB 1718 Common Ground<br />
+		Seminar für Allgemeine Sprachwissenschaft<br />
+		Universität Tübingen<br />
+		Keplerstr. 2, 72074 Tübingen<br />
+    (+49) 7071 29-75665<br />
+		nadine.balbach@uni-tuebingen.de</p>
 		<p>&nbsp;</p>
 		<p>&nbsp;</p>`,
  		 // If you use JavaScripts Template String `I am a Template String`, you can use HTML <></> and javascript ${} inside
@@ -113,9 +122,9 @@ const instructions = magpieViews.view_generator("instructions", {
   name: "instructions",
   title: "Allgemeine Hinweise",
   text: `Zunächst werden Sie zwei Übungsdurchgänge absolvieren, um sich mit der Vorgehensweise im Experiment vertraut zu machen.
-      Ihr Fortschritt in den Übungen und im Experiment wird jeweils durch einen Balken rechts oben dargestellt.
+      Ihr Fortschritt in den Übungen und im Experiment wird jeweils durch einen Balken rechts oben dargestellt. Der Fortschritt eines Durchgangs wird zusätzlich gekennzeichnet.
   		<br />
-  		Sowohl in den Übungsdurchgängen als auch im Experiment geben Sie Bewertungen in Bezug auf eine zuvor gelesene Frage ab.
+  		Sowohl in den Übungsdurchgängen als auch im Experiment geben Sie Bewertungen in Bezug auf eine zuvor gelesene Äußerung ab.
     	<br />
     	Im Anschluss an das Experiment bitten wir Sie, noch ein paar Fragen zu Ihrer Person auszufüllen.
     	 <br />
@@ -129,9 +138,11 @@ const instructionsPracticeTrial = magpieViews.view_generator("instructions", {
   trials: 1,
   name: "instructions_practice_trial",
   title: "Hinweise zu den Übungsdurchgängen",
-  text: `Stellen Sie sich für die folgenden Übungsdurchgänge und das Experiment vor, dass Sie auf einer Party sind. Auf dem Weg in die Küche hören Sie, wie sich eine Person mit einer anderen unterhält. Die Frage dieser Person bleibt oben auf der Seite stehen, während Ihnen nacheinander mehrere Fragen dazu gestellt werden.
+  text: `Stellen Sie sich für die folgenden Übungsdurchgänge und das Experiment vor, dass Sie auf einer Party sind. Auf dem Weg in die Küche hören Sie, wie sich eine Person mit einer anderen unterhält. Die Äußerung der Person bleibt dabei oben auf der Seite stehen, während sich die Fragen an Sie darunter ändern.
   <br />
-  Bewerten Sie jeweils, wie sehr sich die fragende Person mit ihrer Frage darauf festlegt, dass ein bestimmter Sachverhalt zutrifft. Beantworten Sie dies, indem Sie einen Regler auf einer Leiste nach links für \'gar nicht\' und nach rechts für \'voll und ganz\' verschieben. Bitte machen Sie Ihre Bewertung jeweils anhand der Frage, die oben auf der Seite stehen bleibt.`,
+  Bewerten Sie jeweils, ${RATING_PHRASE} die Person mit ihrer Äußerung darauf festlegt, dass ein bestimmter Sachverhalt zutrifft. Beantworten Sie dies, indem Sie einen Regler auf einer Leiste nach links für „${SCALE_LEFT}“ und nach rechts für „${SCALE_RIGHT}“ verschieben. Bitte machen Sie Ihre Bewertung jeweils anhand der Äußerung, die oben auf der Seite stehen bleibt. Die Anzahl der Fragen pro Durchgang wird Ihnen rechts oben angezeigt.
+  <br /><br />
+  Bitte benutzen Sie keine AI/KI oder externe Webseiten; wir sind an Ihrer eigenen Meinung interessiert. Die Beantwortung mit Bots würde unsere Ergebnisse verfälschen und uns nicht weiterhelfen.`,
   buttonText: "Übungsdurchgänge beginnen"
 });
 
@@ -148,15 +159,17 @@ const instructionsRatingScale = magpieViews.view_generator("instructions", {
   trials: 1,
   name: "instructions_rating_scale",
   title: "Hinweis zum Experiment",
-  text: `Insgesamt werden Sie nun ${main_trial_new.length} Fragen lesen und bewerten.
-  Wie bereits in den Übungsdurchgängen, stellen Sie sich vor, dass Sie auf einer Party sind und auf dem Weg in die Küche hören, wie jemand sich unterhält und eine Frage stellt.
-  Zu jeder Frage werden Ihnen nacheinander mehrere Fragen gestellt; die Frage der Person bleibt dabei oben auf der Seite stehen.
-  Sie bewerten, wie in den Übungsdurchgängen, wie sehr sich die fragende Person mit ihrer Frage darauf festlegt, dass ein bestimmter Sachverhalt zutrifft.
-  Beantworten Sie dies, indem Sie den Regler auf der Leiste nach links für \'gar nicht\' und nach rechts für \'voll und ganz\' verschieben.
-  Bitte machen Sie Ihre Bewertung jeweils anhand der Frage, die oben auf der Seite stehen bleibt.
-  Bei einigen wenigen, zufällig ausgewählten Fragen werden Sie zusätzlich gebeten, kurz zu kommentieren, warum Sie so geantwortet haben.
-  Das ist gewollt und dient nur unserem besseren Verständnis Ihrer Antworten - es passiert bewusst nicht bei jedem Text.
-  <br />
+  text: `Sie werden nun 48 Äußerungen lesen und dazu jeweils zu 2-3 Fragen Bewertungen abgeben. Insgesamt sind es ${main_trial_new.length} Bewertungen.
+  Bei einigen wenigen, zufällig ausgewählten Fragen werden Sie zusätzlich gebeten, kurz zu kommentieren, warum Sie so bewertet haben.
+  Das ist gewollt und dient nur unserem besseren Verständnis Ihrer Bewertungen.
+  Wie bereits in den Übungsdurchgängen, stellen Sie sich vor, dass Sie auf einer Party sind und auf dem Weg in die Küche hören, wie sich eine Person mit einer anderen unterhält.
+  Die Äußerung der Person bleibt dabei oben auf der Seite stehen, während sich die Fragen an Sie darunter ändern.
+  Sie bewerten, wie in den Übungsdurchgängen, ${RATING_PHRASE} die Person mit ihrer Äußerung darauf festlegt, dass ein bestimmter Sachverhalt zutrifft.
+  Beantworten Sie dies, indem Sie den Regler auf der Leiste nach links für „${SCALE_LEFT}“ und nach rechts für „${SCALE_RIGHT}“ verschieben.
+  Bitte machen Sie Ihre Bewertung jeweils anhand der Äußerung, die oben auf der Seite stehen bleibt.
+  <br /><br />
+  Bitte benutzen Sie keine AI/KI oder externe Webseiten; wir sind an Ihrer eigenen Meinung interessiert! Die Beantwortung mit Bots würde unsere Ergebnisse verfälschen und uns nicht weiterhelfen.
+  <br /><br />
   Bereit? Auf der nächsten Seite beginnt das Experiment.`,
   buttonText: "Experiment beginnen"
 });
@@ -267,6 +280,18 @@ const thanks = magpieViews.view_generator("thanks", {
 * All about the properties of trial views
 * https://magpie-ea.github.io/magpie-docs/01_designing_experiments/01_template_views/#trial-views
 */
+
+const attentionChecks = magpieViews.view_generator("slider_rating",{
+    trials: attention_check_trials.length,
+    name: "attention_check",
+    data: attention_check_trials,
+    buttonText: "Weiter"
+} , {
+  stimulus_container_generator: stimulus_container_generators.basic_stimulus,
+  answer_container_generator: custom_answer_container_generators.slider_rating,
+  handle_response_function: custom_handle_response_functions.attention_check
+}
+);
 
 const practiceSlider_rating = magpieViews.view_generator("slider_rating",{
     trials: 4,

@@ -6,7 +6,7 @@ const maintrials_PJ = [
     "triggerWord": "Außer",
     "meaningComponent": "POI",
     "QUD": "<b>Edith</b>: <I>„Sind alle Juraprofessoren außer Tom zusammen in der Mensa?\"</I>",
-    "question": "Wie sehr legt sich Edith mit ihrer Frage darauf fest, dass es auf Tom zutrifft, dass er Juraprofessor ist?",
+    "question": "Wie sehr legt sich Edith mit ihrer Äußerung darauf fest, dass es auf Tom zutrifft, dass er Juraprofessor ist?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -18,7 +18,7 @@ const maintrials_PJ = [
     "triggerWord": "Außer",
     "meaningComponent": "NC",
     "QUD": "<b>Edith</b>: <I>„Sind alle Juraprofessoren außer Tom zusammen in der Mensa?\"</I>",
-    "question": "Wie sehr legt sich Edith mit ihrer Frage darauf fest, dass es auf Tom zutrifft, dass er nicht mit Juraprofessoren zusammen in der Mensa ist?",
+    "question": "Wie sehr legt sich Edith mit ihrer Äußerung darauf fest, dass es auf Tom zutrifft, dass er nicht mit Juraprofessoren zusammen in der Mensa ist?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -30,7 +30,7 @@ const maintrials_PJ = [
     "triggerWord": "Außer",
     "meaningComponent": "OC",
     "QUD": "<b>Edith</b>: <I>„Sind alle Juraprofessoren außer Tom zusammen in der Mensa?\"</I>",
-    "question": "Wie sehr legt sich Edith mit ihrer Frage darauf fest, dass es auf alle Juraprofessoren, die nicht Tom sind, zutrifft, dass sie zusammen in der Mensa sind?",
+    "question": "Wie sehr legt sich Edith mit ihrer Äußerung darauf fest, dass es auf alle Juraprofessoren, die nicht Tom sind, zutrifft, dass sie zusammen in der Mensa sind?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -42,7 +42,7 @@ const maintrials_PJ = [
     "triggerWord": "Aufhören",
     "meaningComponent": "PSP",
     "QUD": "<b>Carlotta</b>: <I>„Haben alle Golfmitglieder aufgehört eine Jahresmitgliedschaft zu haben?\"</I>",
-    "question": "Wie sehr legt sich Carlotta mit ihrer Frage darauf fest, dass es auf alle Golfmitglieder zutrifft, dass sie zuvor eine Jahresmitgliedschaft hatten?",
+    "question": "Wie sehr legt sich Carlotta mit ihrer Äußerung darauf fest, dass es auf alle Golfmitglieder zutrifft, dass sie zuvor eine Jahresmitgliedschaft hatten?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -54,7 +54,7 @@ const maintrials_PJ = [
     "triggerWord": "Aufhören",
     "meaningComponent": "MC",
     "QUD": "<b>Carlotta</b>: <I>„Haben alle Golfmitglieder aufgehört eine Jahresmitgliedschaft zu haben?\"</I>",
-    "question": "Wie sehr legt sich Carlotta mit ihrer Frage darauf fest, dass es auf alle Golfmitglieder zutrifft, dass sie aktuell keine Jahresmitgliedschaft haben?",
+    "question": "Wie sehr legt sich Carlotta mit ihrer Äußerung darauf fest, dass es auf alle Golfmitglieder zutrifft, dass sie aktuell keine Jahresmitgliedschaft haben?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -65,8 +65,8 @@ const maintrials_PJ = [
     "trigger": "CI",
     "triggerWord": "Appositive",
     "meaningComponent": "CI",
-    "QUD": "<b>Carolin</b>: <I>„Können die Wintersportler, Max und seine Bekannten, die Pisten genießen?\"</I>",
-    "question": "Wie sehr legt sich Carolin mit ihrer Frage darauf fest, dass es auf die Wintersportler zutrifft, dass es Max und seine Bekannten sind?",
+    "QUD": "<b>Carolin</b>: <I>„Können die Wintersportler, Max und seine Kameraden, die Pisten genießen?\"</I>",
+    "question": "Wie sehr legt sich Carolin mit ihrer Äußerung darauf fest, dass es auf die Wintersportler zutrifft, dass es Max und seine Kameraden sind?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -77,8 +77,8 @@ const maintrials_PJ = [
     "trigger": "CI",
     "triggerWord": "Appositive",
     "meaningComponent": "MC",
-    "QUD": "<b>Carolin</b>: <I>„Können die Wintersportler, Max und seine Bekannten, die Pisten genießen?\"</I>",
-    "question": "Wie sehr legt sich Carolin mit ihrer Frage darauf fest, dass es auf die Wintersportler zutrifft, dass sie die Pisten genießen können?",
+    "QUD": "<b>Carolin</b>: <I>„Können die Wintersportler, Max und seine Kameraden, die Pisten genießen?\"</I>",
+    "question": "Wie sehr legt sich Carolin mit ihrer Äußerung darauf fest, dass es auf die Wintersportler zutrifft, dass sie die Pisten genießen können?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -90,7 +90,7 @@ const maintrials_PJ = [
     "triggerWord": "Einige",
     "meaningComponent": "SI",
     "QUD": "<b>Joachim</b>: <I>„Wollen einige Kindergartenkinder Bananen?\"</I>",
-    "question": "Wie sehr legt sich Joachim mit seiner Frage darauf fest, dass es auf nicht alle Kindergartenkinder zutrifft, dass sie Bananen wollen?",
+    "question": "Wie sehr legt sich Joachim mit seiner Äußerung darauf fest, dass es auf nicht alle Kindergartenkinder zutrifft, dass sie Bananen wollen?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -102,7 +102,7 @@ const maintrials_PJ = [
     "triggerWord": "Einige",
     "meaningComponent": "MC",
     "QUD": "<b>Joachim</b>: <I>„Wollen einige Kindergartenkinder Bananen?\"</I>",
-    "question": "Wie sehr legt sich Joachim mit seiner Frage darauf fest, dass es auf mehrere Kindergartenkinder zutrifft, dass sie Bananen wollen?",
+    "question": "Wie sehr legt sich Joachim mit seiner Äußerung darauf fest, dass es auf mindestens ein, vielleicht alle Kindergartenkinder zutrifft, dass sie Bananen wollen?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -114,7 +114,7 @@ const maintrials_PJ = [
     "triggerWord": "Außer",
     "meaningComponent": "POI",
     "QUD": "<b>Ruben</b>: <I>„Haben alle zwölfjährigen Kinder außer Nadine ein Smartphone?\"</I>",
-    "question": "Wie sehr legt sich Ruben mit seiner Frage darauf fest, dass es auf Nadine zutrifft, dass sie ein zwölfjähriges Kind ist?",
+    "question": "Wie sehr legt sich Ruben mit seiner Äußerung darauf fest, dass es auf Nadine zutrifft, dass sie ein zwölfjähriges Kind ist?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -126,7 +126,7 @@ const maintrials_PJ = [
     "triggerWord": "Außer",
     "meaningComponent": "NC",
     "QUD": "<b>Ruben</b>: <I>„Haben alle zwölfjährigen Kinder außer Nadine ein Smartphone?\"</I>",
-    "question": "Wie sehr legt sich Ruben mit seiner Frage darauf fest, dass es auf Nadine zutrifft, dass sie kein Smartphone hat?",
+    "question": "Wie sehr legt sich Ruben mit seiner Äußerung darauf fest, dass es auf Nadine zutrifft, dass sie kein Smartphone hat?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -138,7 +138,7 @@ const maintrials_PJ = [
     "triggerWord": "Außer",
     "meaningComponent": "OC",
     "QUD": "<b>Ruben</b>: <I>„Haben alle zwölfjährigen Kinder außer Nadine ein Smartphone?\"</I>",
-    "question": "Wie sehr legt sich Ruben mit seiner Frage darauf fest, dass es auf alle zwölfjährigen Kinder, die nicht Nadine sind, zutrifft, dass sie ein Smartphone haben?",
+    "question": "Wie sehr legt sich Ruben mit seiner Äußerung darauf fest, dass es auf alle zwölfjährigen Kinder, die nicht Nadine sind, zutrifft, dass sie ein Smartphone haben?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -150,7 +150,7 @@ const maintrials_PJ = [
     "triggerWord": "Wieder",
     "meaningComponent": "PSP",
     "QUD": "<b>Elisabeth</b>: <I>„Sind alle Fallschirmspringer wieder vorsichtig?\"</I>",
-    "question": "Wie sehr legt sich Elisabeth mit ihrer Frage darauf fest, dass es auf alle Fallschirmspringer zutrifft, dass sie zuvor vorsichtig sind?",
+    "question": "Wie sehr legt sich Elisabeth mit ihrer Äußerung darauf fest, dass es auf alle Fallschirmspringer zutrifft, dass sie zuvor vorsichtig waren?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -162,7 +162,7 @@ const maintrials_PJ = [
     "triggerWord": "Wieder",
     "meaningComponent": "MC",
     "QUD": "<b>Elisabeth</b>: <I>„Sind alle Fallschirmspringer wieder vorsichtig?\"</I>",
-    "question": "Wie sehr legt sich Elisabeth mit ihrer Frage darauf fest, dass es auf alle Fallschirmspringer zutrifft, dass sie aktuell vorsichtig sind?",
+    "question": "Wie sehr legt sich Elisabeth mit ihrer Äußerung darauf fest, dass es auf alle Fallschirmspringer zutrifft, dass sie aktuell vorsichtig sind?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -174,7 +174,7 @@ const maintrials_PJ = [
     "triggerWord": "NRRC",
     "meaningComponent": "CI",
     "QUD": "<b>Frederik</b>: <I>„Haben die Ärztinnen, die Kolleginnen von Hannah sind, Kaffee getrunken?\"</I>",
-    "question": "Wie sehr legt sich Frederik mit seiner Frage darauf fest, dass es auf die Ärztinnen zutrifft, dass sie Kolleginnen von Hannah sind?",
+    "question": "Wie sehr legt sich Frederik mit seiner Äußerung darauf fest, dass es auf die Ärztinnen zutrifft, dass sie Kolleginnen von Hannah sind?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -186,7 +186,7 @@ const maintrials_PJ = [
     "triggerWord": "NRRC",
     "meaningComponent": "MC",
     "QUD": "<b>Frederik</b>: <I>„Haben die Ärztinnen, die Kolleginnen von Hannah sind, Kaffee getrunken?\"</I>",
-    "question": "Wie sehr legt sich Frederik mit seiner Frage darauf fest, dass es auf die Ärztinnen zutrifft, dass sie Kaffee getrunken haben?",
+    "question": "Wie sehr legt sich Frederik mit seiner Äußerung darauf fest, dass es auf die Ärztinnen zutrifft, dass sie Kaffee getrunken haben?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -197,8 +197,8 @@ const maintrials_PJ = [
     "trigger": "SI",
     "triggerWord": "Oder",
     "meaningComponent": "SI",
-    "QUD": "<b>Sonja</b>: <I>„Kann Baskisch einer Sprachfamilie zugeordnet oder verschriftlicht werden?\"</I>",
-    "question": "Wie sehr legt sich Sonja mit ihrer Frage darauf fest, dass es auf Baskisch zutrifft, dass es einer Sprachfamilie zugeordnet oder verschriftlicht werden kann, aber nicht beides?",
+    "QUD": "<b>Sonja</b>: <I>„Kann Baskisch einer Sprachfamilie oder Sprache zugeordnet werden?\"</I>",
+    "question": "Wie sehr legt sich Sonja mit ihrer Äußerung darauf fest, dass es auf Baskisch zutrifft, dass es einer Sprachfamilie oder Sprache zugeordnet werden kann, aber nicht beides?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -209,8 +209,8 @@ const maintrials_PJ = [
     "trigger": "SI",
     "triggerWord": "Oder",
     "meaningComponent": "MC",
-    "QUD": "<b>Sonja</b>: <I>„Kann Baskisch einer Sprachfamilie zugeordnet oder verschriftlicht werden?\"</I>",
-    "question": "Wie sehr legt sich Sonja mit ihrer Frage darauf fest, dass es auf Baskisch zutrifft, dass es einer Sprachfamilie zugeordnet oder verschriftlicht werden kann oder beides?",
+    "QUD": "<b>Sonja</b>: <I>„Kann Baskisch einer Sprachfamilie oder Sprache zugeordnet werden?\"</I>",
+    "question": "Wie sehr legt sich Sonja mit ihrer Äußerung darauf fest, dass es auf Baskisch zutrifft, dass es einer Sprachfamilie oder Sprache zugeordnet werden kann oder beides?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -222,7 +222,7 @@ const maintrials_PJ = [
     "triggerWord": "Außer",
     "meaningComponent": "POI",
     "QUD": "<b>Florian</b>: <I>„Ist jeder Informatikstudent außer Anne am PC?\"</I>",
-    "question": "Wie sehr legt sich Florian mit seiner Frage darauf fest, dass es auf Anne zutrifft, dass sie Informatikstudentin ist?",
+    "question": "Wie sehr legt sich Florian mit seiner Äußerung darauf fest, dass es auf Anne zutrifft, dass sie Informatikstudentin ist?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -234,7 +234,7 @@ const maintrials_PJ = [
     "triggerWord": "Außer",
     "meaningComponent": "NC",
     "QUD": "<b>Florian</b>: <I>„Ist jeder Informatikstudent außer Anne am PC?\"</I>",
-    "question": "Wie sehr legt sich Florian mit seiner Frage darauf fest, dass es auf Anne zutrifft, dass sie nicht am PC ist?",
+    "question": "Wie sehr legt sich Florian mit seiner Äußerung darauf fest, dass es auf Anne zutrifft, dass sie nicht am PC ist?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -246,7 +246,7 @@ const maintrials_PJ = [
     "triggerWord": "Außer",
     "meaningComponent": "OC",
     "QUD": "<b>Florian</b>: <I>„Ist jeder Informatikstudent außer Anne am PC?\"</I>",
-    "question": "Wie sehr legt sich Florian mit seiner Frage darauf fest, dass es auf alle Informatikstudenten, die nicht Anne sind, zutrifft, dass sie am PC sind?",
+    "question": "Wie sehr legt sich Florian mit seiner Äußerung darauf fest, dass es auf alle Informatikstudenten, die nicht Anne sind, zutrifft, dass sie am PC sind?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -258,7 +258,7 @@ const maintrials_PJ = [
     "triggerWord": "Aufhören",
     "meaningComponent": "PSP",
     "QUD": "<b>Ellen</b>: <I>„Hat jeder Hundesitter aufgehört eine Stunde Gassi zu gehen?\"</I>",
-    "question": "Wie sehr legt sich Ellen mit ihrer Frage darauf fest, dass es auf jeden Hundesitter zutrifft, dass er zuvor eine Stunde Gassi gegangen ist?",
+    "question": "Wie sehr legt sich Ellen mit ihrer Äußerung darauf fest, dass es auf jeden Hundesitter zutrifft, dass er zuvor eine Stunde Gassi gegangen ist?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -270,7 +270,7 @@ const maintrials_PJ = [
     "triggerWord": "Aufhören",
     "meaningComponent": "MC",
     "QUD": "<b>Ellen</b>: <I>„Hat jeder Hundesitter aufgehört eine Stunde Gassi zu gehen?\"</I>",
-    "question": "Wie sehr legt sich Ellen mit ihrer Frage darauf fest, dass es auf jeden Hundesitter zutrifft, dass er aktuell nicht eine Stunde Gassi geht?",
+    "question": "Wie sehr legt sich Ellen mit ihrer Äußerung darauf fest, dass es auf jeden Hundesitter zutrifft, dass er aktuell nicht eine Stunde Gassi geht?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -282,7 +282,7 @@ const maintrials_PJ = [
     "triggerWord": "Appositive",
     "meaningComponent": "CI",
     "QUD": "<b>Cornelia</b>: <I>„Wollen die Geologiestudenten, Uwe und seine Kommilitonen, nach Namibia fliegen?\"</I>",
-    "question": "Wie sehr legt sich Cornelia mit ihrer Frage darauf fest, dass es auf die Geologiestudenten zutrifft, dass es Uwe und seine Kommilitonen sind?",
+    "question": "Wie sehr legt sich Cornelia mit ihrer Äußerung darauf fest, dass es auf die Geologiestudenten zutrifft, dass es Uwe und seine Kommilitonen sind?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -294,7 +294,7 @@ const maintrials_PJ = [
     "triggerWord": "Appositive",
     "meaningComponent": "MC",
     "QUD": "<b>Cornelia</b>: <I>„Wollen die Geologiestudenten, Uwe und seine Kommilitonen, nach Namibia fliegen?\"</I>",
-    "question": "Wie sehr legt sich Cornelia mit ihrer Frage darauf fest, dass es auf die Geologiestudenten zutrifft, dass sie nach Namibia fliegen wollen?",
+    "question": "Wie sehr legt sich Cornelia mit ihrer Äußerung darauf fest, dass es auf die Geologiestudenten zutrifft, dass sie nach Namibia fliegen wollen?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -306,7 +306,7 @@ const maintrials_PJ = [
     "triggerWord": "Einige",
     "meaningComponent": "SI",
     "QUD": "<b>Silvia</b>: <I>„Sind einige Segler auf einem Katamaran zusammengekommen?\"</I>",
-    "question": "Wie sehr legt sich Silvia mit ihrer Frage darauf fest, dass es auf nicht alle Segler zutrifft, dass sie auf einem Katamaran zusammengekommen sind?",
+    "question": "Wie sehr legt sich Silvia mit ihrer Äußerung darauf fest, dass es auf nicht alle Segler zutrifft, dass sie auf einem Katamaran zusammengekommen sind?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -318,7 +318,7 @@ const maintrials_PJ = [
     "triggerWord": "Einige",
     "meaningComponent": "MC",
     "QUD": "<b>Silvia</b>: <I>„Sind einige Segler auf einem Katamaran zusammengekommen?\"</I>",
-    "question": "Wie sehr legt sich Silvia mit ihrer Frage darauf fest, dass es auf mehrere Segler zutrifft, dass sie auf einem Katamaran zusammengekommen sind?",
+    "question": "Wie sehr legt sich Silvia mit ihrer Äußerung darauf fest, dass es auf mindestens einen, vielleicht alle Segler zutrifft, dass sie auf einem Katamaran zusammengekommen sind?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -330,7 +330,7 @@ const maintrials_PJ = [
     "triggerWord": "Außer",
     "meaningComponent": "POI",
     "QUD": "<b>Samuel</b>: <I>„Sind alle Kfz-Mitarbeiter außer Mia im Dorfbistro?\"</I>",
-    "question": "Wie sehr legt sich Samuel mit seiner Frage darauf fest, dass es auf Mia zutrifft, dass sie Kfz-Mitarbeiterin ist?",
+    "question": "Wie sehr legt sich Samuel mit seiner Äußerung darauf fest, dass es auf Mia zutrifft, dass sie Kfz-Mitarbeiterin ist?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -342,7 +342,7 @@ const maintrials_PJ = [
     "triggerWord": "Außer",
     "meaningComponent": "NC",
     "QUD": "<b>Samuel</b>: <I>„Sind alle Kfz-Mitarbeiter außer Mia im Dorfbistro?\"</I>",
-    "question": "Wie sehr legt sich Samuel mit seiner Frage darauf fest, dass es auf Mia zutrifft, dass sie nicht im Dorfbistro ist?",
+    "question": "Wie sehr legt sich Samuel mit seiner Äußerung darauf fest, dass es auf Mia zutrifft, dass sie nicht im Dorfbistro ist?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -354,7 +354,7 @@ const maintrials_PJ = [
     "triggerWord": "Außer",
     "meaningComponent": "OC",
     "QUD": "<b>Samuel</b>: <I>„Sind alle Kfz-Mitarbeiter außer Mia im Dorfbistro?\"</I>",
-    "question": "Wie sehr legt sich Samuel mit seiner Frage darauf fest, dass es auf alle Kfz-Mitarbeiter, die nicht Mia sind, zutrifft, dass sie im Dorfbistro sind?",
+    "question": "Wie sehr legt sich Samuel mit seiner Äußerung darauf fest, dass es auf alle Kfz-Mitarbeiter, die nicht Mia sind, zutrifft, dass sie im Dorfbistro sind?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -366,7 +366,7 @@ const maintrials_PJ = [
     "triggerWord": "Wieder",
     "meaningComponent": "PSP",
     "QUD": "<b>Oskar</b>: <I>„Sind alle Basketballspielerinnen wieder zufrieden?\"</I>",
-    "question": "Wie sehr legt sich Oskar mit seiner Frage darauf fest, dass es auf alle Basketballspielerinnen zutrifft, dass sie zuvor zufrieden sind?",
+    "question": "Wie sehr legt sich Oskar mit seiner Äußerung darauf fest, dass es auf alle Basketballspielerinnen zutrifft, dass sie zuvor zufrieden waren?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -378,7 +378,7 @@ const maintrials_PJ = [
     "triggerWord": "Wieder",
     "meaningComponent": "MC",
     "QUD": "<b>Oskar</b>: <I>„Sind alle Basketballspielerinnen wieder zufrieden?\"</I>",
-    "question": "Wie sehr legt sich Oskar mit seiner Frage darauf fest, dass es auf alle Basketballspielerinnen zutrifft, dass sie aktuell zufrieden sind?",
+    "question": "Wie sehr legt sich Oskar mit seiner Äußerung darauf fest, dass es auf alle Basketballspielerinnen zutrifft, dass sie aktuell zufrieden sind?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -390,7 +390,7 @@ const maintrials_PJ = [
     "triggerWord": "NRRC",
     "meaningComponent": "CI",
     "QUD": "<b>Leslie</b>: <I>„Sind die Unternehmer, die Bekannte von Frieder sind, bereit zu spenden?\"</I>",
-    "question": "Wie sehr legt sich Leslie mit ihrer Frage darauf fest, dass es auf die Unternehmer zutrifft, dass sie Bekannte von Frieder sind?",
+    "question": "Wie sehr legt sich Leslie mit ihrer Äußerung darauf fest, dass es auf die Unternehmer zutrifft, dass sie Bekannte von Frieder sind?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -402,7 +402,7 @@ const maintrials_PJ = [
     "triggerWord": "NRRC",
     "meaningComponent": "MC",
     "QUD": "<b>Leslie</b>: <I>„Sind die Unternehmer, die Bekannte von Frieder sind, bereit zu spenden?\"</I>",
-    "question": "Wie sehr legt sich Leslie mit ihrer Frage darauf fest, dass es auf die Unternehmer zutrifft, dass sie bereit zu spenden sind?",
+    "question": "Wie sehr legt sich Leslie mit ihrer Äußerung darauf fest, dass es auf die Unternehmer zutrifft, dass sie bereit zu spenden sind?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -414,7 +414,7 @@ const maintrials_PJ = [
     "triggerWord": "Oder",
     "meaningComponent": "SI",
     "QUD": "<b>Georg</b>: <I>„Ist Tabea gestresst oder übermüdet?\"</I>",
-    "question": "Wie sehr legt sich Georg mit seiner Frage darauf fest, dass es auf Tabea zutrifft, dass sie gestresst oder übermüdet ist, aber nicht beides?",
+    "question": "Wie sehr legt sich Georg mit seiner Äußerung darauf fest, dass es auf Tabea zutrifft, dass sie gestresst oder übermüdet ist, aber nicht beides?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -426,7 +426,7 @@ const maintrials_PJ = [
     "triggerWord": "Oder",
     "meaningComponent": "MC",
     "QUD": "<b>Georg</b>: <I>„Ist Tabea gestresst oder übermüdet?\"</I>",
-    "question": "Wie sehr legt sich Georg mit seiner Frage darauf fest, dass es auf Tabea zutrifft, dass sie gestresst oder übermüdet ist oder beides?",
+    "question": "Wie sehr legt sich Georg mit seiner Äußerung darauf fest, dass es auf Tabea zutrifft, dass sie gestresst oder übermüdet ist oder beides?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -438,7 +438,7 @@ const maintrials_PJ = [
     "triggerWord": "Außer",
     "meaningComponent": "POI",
     "QUD": "<b>Lena</b>: <I>„Ist jeder Angestellte bei Bosch außer Willi von den Sportangeboten begeistert?\"</I>",
-    "question": "Wie sehr legt sich Lena mit ihrer Frage darauf fest, dass es auf Willi zutrifft, dass er Angestellter bei Bosch ist?",
+    "question": "Wie sehr legt sich Lena mit ihrer Äußerung darauf fest, dass es auf Willi zutrifft, dass er Angestellter bei Bosch ist?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -450,7 +450,7 @@ const maintrials_PJ = [
     "triggerWord": "Außer",
     "meaningComponent": "NC",
     "QUD": "<b>Lena</b>: <I>„Ist jeder Angestellte bei Bosch außer Willi von den Sportangeboten begeistert?\"</I>",
-    "question": "Wie sehr legt sich Lena mit ihrer Frage darauf fest, dass es auf Willi zutrifft, dass er nicht von den Sportangeboten begeistert ist?",
+    "question": "Wie sehr legt sich Lena mit ihrer Äußerung darauf fest, dass es auf Willi zutrifft, dass er nicht von den Sportangeboten begeistert ist?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -462,7 +462,7 @@ const maintrials_PJ = [
     "triggerWord": "Außer",
     "meaningComponent": "OC",
     "QUD": "<b>Lena</b>: <I>„Ist jeder Angestellte bei Bosch außer Willi von den Sportangeboten begeistert?\"</I>",
-    "question": "Wie sehr legt sich Lena mit ihrer Frage darauf fest, dass es auf alle Angestellten bei Bosch, die nicht Willi sind, zutrifft, dass sie von den Sportangeboten begeistert sind?",
+    "question": "Wie sehr legt sich Lena mit ihrer Äußerung darauf fest, dass es auf alle Angestellten bei Bosch, die nicht Willi sind, zutrifft, dass sie von den Sportangeboten begeistert sind?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -474,7 +474,7 @@ const maintrials_PJ = [
     "triggerWord": "Aufhören",
     "meaningComponent": "PSP",
     "QUD": "<b>Rainer</b>: <I>„Hat jedes fünfjährige Kind aufgehört Wünsche zu haben?\"</I>",
-    "question": "Wie sehr legt sich Rainer mit seiner Frage darauf fest, dass es auf jedes fünfjährige Kind zutrifft, dass es zuvor Wünsche hatte?",
+    "question": "Wie sehr legt sich Rainer mit seiner Äußerung darauf fest, dass es auf jedes fünfjährige Kind zutrifft, dass es zuvor Wünsche hatte?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -486,7 +486,7 @@ const maintrials_PJ = [
     "triggerWord": "Aufhören",
     "meaningComponent": "MC",
     "QUD": "<b>Rainer</b>: <I>„Hat jedes fünfjährige Kind aufgehört Wünsche zu haben?\"</I>",
-    "question": "Wie sehr legt sich Rainer mit seiner Frage darauf fest, dass es auf jedes fünfjährige Kind zutrifft, dass es aktuell keine Wünsche hat?",
+    "question": "Wie sehr legt sich Rainer mit seiner Äußerung darauf fest, dass es auf jedes fünfjährige Kind zutrifft, dass es aktuell keine Wünsche hat?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -498,7 +498,7 @@ const maintrials_PJ = [
     "triggerWord": "Appositive",
     "meaningComponent": "CI",
     "QUD": "<b>Ida</b>: <I>„Wollen die gebürtigen Münchner, Dieter und seine Bekannten, in Bogenhausen bleiben?\"</I>",
-    "question": "Wie sehr legt sich Ida mit ihrer Frage darauf fest, dass es auf die gebürtigen Münchner zutrifft, dass es Dieter und seine Bekannten sind?",
+    "question": "Wie sehr legt sich Ida mit ihrer Äußerung darauf fest, dass es auf die gebürtigen Münchner zutrifft, dass es Dieter und seine Bekannten sind?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -510,7 +510,7 @@ const maintrials_PJ = [
     "triggerWord": "Appositive",
     "meaningComponent": "MC",
     "QUD": "<b>Ida</b>: <I>„Wollen die gebürtigen Münchner, Dieter und seine Bekannten, in Bogenhausen bleiben?\"</I>",
-    "question": "Wie sehr legt sich Ida mit ihrer Frage darauf fest, dass es auf die gebürtigen Münchner zutrifft, dass sie in Bogenhausen bleiben wollen?",
+    "question": "Wie sehr legt sich Ida mit ihrer Äußerung darauf fest, dass es auf die gebürtigen Münchner zutrifft, dass sie in Bogenhausen bleiben wollen?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -522,7 +522,7 @@ const maintrials_PJ = [
     "triggerWord": "Einige",
     "meaningComponent": "SI",
     "QUD": "<b>Dirk</b>: <I>„Sind einige Tiere des Zirkusunternehmens gefügig?\"</I>",
-    "question": "Wie sehr legt sich Dirk mit seiner Frage darauf fest, dass es auf nicht alle Tiere des Zirkusunternehmens zutrifft, dass sie gefügig sind?",
+    "question": "Wie sehr legt sich Dirk mit seiner Äußerung darauf fest, dass es auf nicht alle Tiere des Zirkusunternehmens zutrifft, dass sie gefügig sind?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -534,7 +534,7 @@ const maintrials_PJ = [
     "triggerWord": "Einige",
     "meaningComponent": "MC",
     "QUD": "<b>Dirk</b>: <I>„Sind einige Tiere des Zirkusunternehmens gefügig?\"</I>",
-    "question": "Wie sehr legt sich Dirk mit seiner Frage darauf fest, dass es auf mehrere Tiere des Zirkusunternehmens zutrifft, dass sie gefügig sind?",
+    "question": "Wie sehr legt sich Dirk mit seiner Äußerung darauf fest, dass es auf mindestens ein, vielleicht alle Tiere des Zirkusunternehmens zutrifft, dass sie gefügig sind?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -546,7 +546,7 @@ const maintrials_PJ = [
     "triggerWord": "Außer",
     "meaningComponent": "POI",
     "QUD": "<b>Klara</b>: <I>„Hat jeder Kinderbuchautor außer Luis Spaß an Lesungen?\"</I>",
-    "question": "Wie sehr legt sich Klara mit ihrer Frage darauf fest, dass es auf Luis zutrifft, dass er Kinderbuchautor ist?",
+    "question": "Wie sehr legt sich Klara mit ihrer Äußerung darauf fest, dass es auf Luis zutrifft, dass er Kinderbuchautor ist?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -558,7 +558,7 @@ const maintrials_PJ = [
     "triggerWord": "Außer",
     "meaningComponent": "NC",
     "QUD": "<b>Klara</b>: <I>„Hat jeder Kinderbuchautor außer Luis Spaß an Lesungen?\"</I>",
-    "question": "Wie sehr legt sich Klara mit ihrer Frage darauf fest, dass es auf Luis zutrifft, dass er keinen Spaß an Lesungen hat?",
+    "question": "Wie sehr legt sich Klara mit ihrer Äußerung darauf fest, dass es auf Luis zutrifft, dass er keinen Spaß an Lesungen hat?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -570,7 +570,7 @@ const maintrials_PJ = [
     "triggerWord": "Außer",
     "meaningComponent": "OC",
     "QUD": "<b>Klara</b>: <I>„Hat jeder Kinderbuchautor außer Luis Spaß an Lesungen?\"</I>",
-    "question": "Wie sehr legt sich Klara mit ihrer Frage darauf fest, dass es auf alle Kinderbuchautoren, die nicht Luis sind, zutrifft, dass sie Spaß an Lesungen haben?",
+    "question": "Wie sehr legt sich Klara mit ihrer Äußerung darauf fest, dass es auf alle Kinderbuchautoren, die nicht Luis sind, zutrifft, dass sie Spaß an Lesungen haben?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -582,7 +582,7 @@ const maintrials_PJ = [
     "triggerWord": "Wieder",
     "meaningComponent": "PSP",
     "QUD": "<b>Maike</b>: <I>„Haben alle Mitglieder der Onlineplattform Serienliebhaber.de wieder Folgen diskutiert?\"</I>",
-    "question": "Wie sehr legt sich Maike mit ihrer Frage darauf fest, dass es auf alle Mitglieder der Onlineplattform Serienliebhaber.de zutrifft, dass sie zuvor Folgen diskutiert haben?",
+    "question": "Wie sehr legt sich Maike mit ihrer Äußerung darauf fest, dass es auf alle Mitglieder der Onlineplattform Serienliebhaber.de zutrifft, dass sie zuvor Folgen diskutiert haben?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -594,7 +594,7 @@ const maintrials_PJ = [
     "triggerWord": "Wieder",
     "meaningComponent": "MC",
     "QUD": "<b>Maike</b>: <I>„Haben alle Mitglieder der Onlineplattform Serienliebhaber.de wieder Folgen diskutiert?\"</I>",
-    "question": "Wie sehr legt sich Maike mit ihrer Frage darauf fest, dass es auf alle Mitglieder der Onlineplattform Serienliebhaber.de zutrifft, dass sie aktuell Folgen diskutiert haben?",
+    "question": "Wie sehr legt sich Maike mit ihrer Äußerung darauf fest, dass es auf alle Mitglieder der Onlineplattform Serienliebhaber.de zutrifft, dass sie aktuell Folgen diskutiert haben?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -606,7 +606,7 @@ const maintrials_PJ = [
     "triggerWord": "NRRC",
     "meaningComponent": "CI",
     "QUD": "<b>Josephine</b>: <I>„Waren die Bergsteiger, die Bekannte von Robert sind, vor Sonnenuntergang abgestiegen?\"</I>",
-    "question": "Wie sehr legt sich Josephine mit ihrer Frage darauf fest, dass es auf die Bergsteiger zutrifft, dass sie Bekannte von Robert sind?",
+    "question": "Wie sehr legt sich Josephine mit ihrer Äußerung darauf fest, dass es auf die Bergsteiger zutrifft, dass sie Bekannte von Robert sind?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -618,7 +618,7 @@ const maintrials_PJ = [
     "triggerWord": "NRRC",
     "meaningComponent": "MC",
     "QUD": "<b>Josephine</b>: <I>„Waren die Bergsteiger, die Bekannte von Robert sind, vor Sonnenuntergang abgestiegen?\"</I>",
-    "question": "Wie sehr legt sich Josephine mit ihrer Frage darauf fest, dass es auf die Bergsteiger zutrifft, dass sie vor Sonnenuntergang abgestiegen waren?",
+    "question": "Wie sehr legt sich Josephine mit ihrer Äußerung darauf fest, dass es auf die Bergsteiger zutrifft, dass sie vor Sonnenuntergang abgestiegen waren?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -630,7 +630,7 @@ const maintrials_PJ = [
     "triggerWord": "Oder",
     "meaningComponent": "SI",
     "QUD": "<b>Gerald</b>: <I>„War Charlotte gelangweilt oder unkonzentriert?\"</I>",
-    "question": "Wie sehr legt sich Gerald mit seiner Frage darauf fest, dass es auf Charlotte zutrifft, dass sie gelangweilt oder unkonzentriert war, aber nicht beides?",
+    "question": "Wie sehr legt sich Gerald mit seiner Äußerung darauf fest, dass es auf Charlotte zutrifft, dass sie gelangweilt oder unkonzentriert war, aber nicht beides?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -642,7 +642,7 @@ const maintrials_PJ = [
     "triggerWord": "Oder",
     "meaningComponent": "MC",
     "QUD": "<b>Gerald</b>: <I>„War Charlotte gelangweilt oder unkonzentriert?\"</I>",
-    "question": "Wie sehr legt sich Gerald mit seiner Frage darauf fest, dass es auf Charlotte zutrifft, dass sie gelangweilt oder unkonzentriert war oder beides?",
+    "question": "Wie sehr legt sich Gerald mit seiner Äußerung darauf fest, dass es auf Charlotte zutrifft, dass sie gelangweilt oder unkonzentriert war oder beides?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -654,7 +654,7 @@ const maintrials_PJ = [
     "triggerWord": "Außer",
     "meaningComponent": "POI",
     "QUD": "<b>Otto</b>: <I>„Sind alle Auszubildenden der Schreinerei Bergmann außer Eva bei Zukunftsfragen unsicher?\"</I>",
-    "question": "Wie sehr legt sich Otto mit seiner Frage darauf fest, dass es auf Eva zutrifft, dass sie Auszubildende der Schreinerei Bergmann ist?",
+    "question": "Wie sehr legt sich Otto mit seiner Äußerung darauf fest, dass es auf Eva zutrifft, dass sie Auszubildende der Schreinerei Bergmann ist?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -666,7 +666,7 @@ const maintrials_PJ = [
     "triggerWord": "Außer",
     "meaningComponent": "NC",
     "QUD": "<b>Otto</b>: <I>„Sind alle Auszubildenden der Schreinerei Bergmann außer Eva bei Zukunftsfragen unsicher?\"</I>",
-    "question": "Wie sehr legt sich Otto mit seiner Frage darauf fest, dass es auf Eva zutrifft, dass sie nicht bei Zukunftsfragen unsicher ist?",
+    "question": "Wie sehr legt sich Otto mit seiner Äußerung darauf fest, dass es auf Eva zutrifft, dass sie nicht bei Zukunftsfragen unsicher ist?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -678,7 +678,7 @@ const maintrials_PJ = [
     "triggerWord": "Außer",
     "meaningComponent": "OC",
     "QUD": "<b>Otto</b>: <I>„Sind alle Auszubildenden der Schreinerei Bergmann außer Eva bei Zukunftsfragen unsicher?\"</I>",
-    "question": "Wie sehr legt sich Otto mit seiner Frage darauf fest, dass es auf alle Auszubildenden der Schreinerei Bergmann, die nicht Eva sind, zutrifft, dass sie bei Zukunftsfragen unsicher sind?",
+    "question": "Wie sehr legt sich Otto mit seiner Äußerung darauf fest, dass es auf alle Auszubildenden der Schreinerei Bergmann, die nicht Eva sind, zutrifft, dass sie bei Zukunftsfragen unsicher sind?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -690,7 +690,7 @@ const maintrials_PJ = [
     "triggerWord": "Aufhören",
     "meaningComponent": "PSP",
     "QUD": "<b>Marion</b>: <I>„Haben alle Senioren aufgehört Mittagsschlaf zu machen?\"</I>",
-    "question": "Wie sehr legt sich Marion mit ihrer Frage darauf fest, dass es auf alle Senioren zutrifft, dass sie zuvor Mittagsschlaf gemacht haben?",
+    "question": "Wie sehr legt sich Marion mit ihrer Äußerung darauf fest, dass es auf alle Senioren zutrifft, dass sie zuvor Mittagsschlaf machten?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -702,7 +702,7 @@ const maintrials_PJ = [
     "triggerWord": "Aufhören",
     "meaningComponent": "MC",
     "QUD": "<b>Marion</b>: <I>„Haben alle Senioren aufgehört Mittagsschlaf zu machen?\"</I>",
-    "question": "Wie sehr legt sich Marion mit ihrer Frage darauf fest, dass es auf alle Senioren zutrifft, dass sie aktuell nicht Mittagsschlaf machen?",
+    "question": "Wie sehr legt sich Marion mit ihrer Äußerung darauf fest, dass es auf alle Senioren zutrifft, dass sie aktuell keinen Mittagsschlaf machen?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -713,8 +713,8 @@ const maintrials_PJ = [
     "trigger": "CI",
     "triggerWord": "Appositive",
     "meaningComponent": "CI",
-    "QUD": "<b>Nico</b>: <I>„Waren die Kinobesucher, Susanne und ihre Bekannten, vom Film überzeugt?\"</I>",
-    "question": "Wie sehr legt sich Nico mit seiner Frage darauf fest, dass es auf die Kinobesucher zutrifft, dass es Susanne und ihre Bekannten sind?",
+    "QUD": "<b>Nico</b>: <I>„Waren die Kinobesucher, Susanne und ihre Kinofreunde, vom Film überzeugt?\"</I>",
+    "question": "Wie sehr legt sich Nico mit seiner Äußerung darauf fest, dass es auf die Kinobesucher zutrifft, dass es Susanne und ihre Kinofreunde sind?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -725,8 +725,8 @@ const maintrials_PJ = [
     "trigger": "CI",
     "triggerWord": "Appositive",
     "meaningComponent": "MC",
-    "QUD": "<b>Nico</b>: <I>„Waren die Kinobesucher, Susanne und ihre Bekannten, vom Film überzeugt?\"</I>",
-    "question": "Wie sehr legt sich Nico mit seiner Frage darauf fest, dass es auf die Kinobesucher zutrifft, dass sie vom Film überzeugt waren?",
+    "QUD": "<b>Nico</b>: <I>„Waren die Kinobesucher, Susanne und ihre Kinofreunde, vom Film überzeugt?\"</I>",
+    "question": "Wie sehr legt sich Nico mit seiner Äußerung darauf fest, dass es auf die Kinobesucher zutrifft, dass sie vom Film überzeugt waren?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -738,7 +738,7 @@ const maintrials_PJ = [
     "triggerWord": "Einige",
     "meaningComponent": "SI",
     "QUD": "<b>Emilia</b>: <I>„Haben einige Teichbesitzer Algenmittel gekauft?\"</I>",
-    "question": "Wie sehr legt sich Emilia mit ihrer Frage darauf fest, dass es auf nicht alle Teichbesitzer zutrifft, dass sie Algenmittel gekauft haben?",
+    "question": "Wie sehr legt sich Emilia mit ihrer Äußerung darauf fest, dass es auf nicht alle Teichbesitzer zutrifft, dass sie Algenmittel gekauft haben?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -750,7 +750,7 @@ const maintrials_PJ = [
     "triggerWord": "Einige",
     "meaningComponent": "MC",
     "QUD": "<b>Emilia</b>: <I>„Haben einige Teichbesitzer Algenmittel gekauft?\"</I>",
-    "question": "Wie sehr legt sich Emilia mit ihrer Frage darauf fest, dass es auf mehrere Teichbesitzer zutrifft, dass sie Algenmittel gekauft haben?",
+    "question": "Wie sehr legt sich Emilia mit ihrer Äußerung darauf fest, dass es auf mindestens einen, vielleicht alle Teichbesitzer zutrifft, dass sie Algenmittel gekauft haben?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -762,7 +762,7 @@ const maintrials_PJ = [
     "triggerWord": "Außer",
     "meaningComponent": "POI",
     "QUD": "<b>Ernst</b>: <I>„Waren alle Vorstandsmitglieder außer Hannelore gegen das Homeoffice?\"</I>",
-    "question": "Wie sehr legt sich Ernst mit seiner Frage darauf fest, dass es auf Hannelore zutrifft, dass sie Vorstandsmitglied ist?",
+    "question": "Wie sehr legt sich Ernst mit seiner Äußerung darauf fest, dass es auf Hannelore zutrifft, dass sie Vorstandsmitglied ist?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -774,7 +774,7 @@ const maintrials_PJ = [
     "triggerWord": "Außer",
     "meaningComponent": "NC",
     "QUD": "<b>Ernst</b>: <I>„Waren alle Vorstandsmitglieder außer Hannelore gegen das Homeoffice?\"</I>",
-    "question": "Wie sehr legt sich Ernst mit seiner Frage darauf fest, dass es auf Hannelore zutrifft, dass sie nicht gegen das Homeoffice war?",
+    "question": "Wie sehr legt sich Ernst mit seiner Äußerung darauf fest, dass es auf Hannelore zutrifft, dass sie nicht gegen das Homeoffice war?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -786,7 +786,7 @@ const maintrials_PJ = [
     "triggerWord": "Außer",
     "meaningComponent": "OC",
     "QUD": "<b>Ernst</b>: <I>„Waren alle Vorstandsmitglieder außer Hannelore gegen das Homeoffice?\"</I>",
-    "question": "Wie sehr legt sich Ernst mit seiner Frage darauf fest, dass es auf alle Vorstandsmitglieder, die nicht Hannelore sind, zutrifft, dass sie gegen das Homeoffice waren?",
+    "question": "Wie sehr legt sich Ernst mit seiner Äußerung darauf fest, dass es auf alle Vorstandsmitglieder, die nicht Hannelore sind, zutrifft, dass sie gegen das Homeoffice waren?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -798,7 +798,7 @@ const maintrials_PJ = [
     "triggerWord": "Wieder",
     "meaningComponent": "PSP",
     "QUD": "<b>Kassandra</b>: <I>„Waren alle Kriegsveteranen wieder zusammen am Bodensee?\"</I>",
-    "question": "Wie sehr legt sich Kassandra mit ihrer Frage darauf fest, dass es auf alle Kriegsveteranen zutrifft, dass sie zuvor zusammen am Bodensee waren?",
+    "question": "Wie sehr legt sich Kassandra mit ihrer Äußerung darauf fest, dass es auf alle Kriegsveteranen zutrifft, dass sie zuvor zusammen am Bodensee waren?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -810,7 +810,7 @@ const maintrials_PJ = [
     "triggerWord": "Wieder",
     "meaningComponent": "MC",
     "QUD": "<b>Kassandra</b>: <I>„Waren alle Kriegsveteranen wieder zusammen am Bodensee?\"</I>",
-    "question": "Wie sehr legt sich Kassandra mit ihrer Frage darauf fest, dass es auf alle Kriegsveteranen zutrifft, dass sie aktuell zusammen am Bodensee waren?",
+    "question": "Wie sehr legt sich Kassandra mit ihrer Äußerung darauf fest, dass es auf alle Kriegsveteranen zutrifft, dass sie aktuell zusammen am Bodensee waren?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -822,7 +822,7 @@ const maintrials_PJ = [
     "triggerWord": "NRRC",
     "meaningComponent": "CI",
     "QUD": "<b>Evelyn</b>: <I>„Waren die Mitglieder des Buchclubs, die Bekannte von Marius sind, verspätet?\"</I>",
-    "question": "Wie sehr legt sich Evelyn mit ihrer Frage darauf fest, dass es auf die Mitglieder des Buchclubs zutrifft, dass sie Bekannte von Marius sind?",
+    "question": "Wie sehr legt sich Evelyn mit ihrer Äußerung darauf fest, dass es auf die Mitglieder des Buchclubs zutrifft, dass sie Bekannte von Marius sind?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -834,7 +834,7 @@ const maintrials_PJ = [
     "triggerWord": "NRRC",
     "meaningComponent": "MC",
     "QUD": "<b>Evelyn</b>: <I>„Waren die Mitglieder des Buchclubs, die Bekannte von Marius sind, verspätet?\"</I>",
-    "question": "Wie sehr legt sich Evelyn mit ihrer Frage darauf fest, dass es auf die Mitglieder des Buchclubs zutrifft, dass sie verspätet waren?",
+    "question": "Wie sehr legt sich Evelyn mit ihrer Äußerung darauf fest, dass es auf die Mitglieder des Buchclubs zutrifft, dass sie verspätet waren?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -846,7 +846,7 @@ const maintrials_PJ = [
     "triggerWord": "Oder",
     "meaningComponent": "SI",
     "QUD": "<b>Achim</b>: <I>„Hat Aileen gute Beziehungen zum Hausmeister oder zur Verwaltungsangestellten?\"</I>",
-    "question": "Wie sehr legt sich Achim mit seiner Frage darauf fest, dass es auf Aileen zutrifft, dass sie gute Beziehungen zum Hausmeister oder zur Verwaltungsangestellten hat, aber nicht beides?",
+    "question": "Wie sehr legt sich Achim mit seiner Äußerung darauf fest, dass es auf Aileen zutrifft, dass sie gute Beziehungen zum Hausmeister oder zur Verwaltungsangestellten hat, aber nicht beides?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -858,7 +858,7 @@ const maintrials_PJ = [
     "triggerWord": "Oder",
     "meaningComponent": "MC",
     "QUD": "<b>Achim</b>: <I>„Hat Aileen gute Beziehungen zum Hausmeister oder zur Verwaltungsangestellten?\"</I>",
-    "question": "Wie sehr legt sich Achim mit seiner Frage darauf fest, dass es auf Aileen zutrifft, dass sie gute Beziehungen zum Hausmeister oder zur Verwaltungsangestellten hat, oder beides?",
+    "question": "Wie sehr legt sich Achim mit seiner Äußerung darauf fest, dass es auf Aileen zutrifft, dass sie gute Beziehungen zum Hausmeister oder zur Verwaltungsangestellten hat, oder beides?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": null
@@ -870,7 +870,7 @@ const maintrials_PJ = [
     "triggerWord": "Weil",
     "meaningComponent": "TQ1",
     "QUD": "<b>Anastasia</b>: <I>„Erachtet Konstantin die Tierhaltung im Zoo als artenfreundlich, weil er dort als Tierpfleger arbeitet?\"</I>",
-    "question": "Wie sehr legt sich Anastasia mit ihrer Frage darauf fest, dass es auf Konstantin zutrifft, dass er in einer Tierarztpraxis arbeitet?",
+    "question": "Wie sehr legt sich Anastasia mit ihrer Äußerung darauf fest, dass es auf Konstantin zutrifft, dass er in einer Tierarztpraxis arbeitet?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": "gar nicht"
@@ -882,7 +882,7 @@ const maintrials_PJ = [
     "triggerWord": "Weil",
     "meaningComponent": "TQ2",
     "QUD": "<b>Anastasia</b>: <I>„Erachtet Konstantin die Tierhaltung im Zoo als artenfreundlich, weil er dort als Tierpfleger arbeitet?\"</I>",
-    "question": "Wie sehr legt sich Anastasia mit ihrer Frage darauf fest, dass es auf Konstantin zutrifft, dass er als Zeitungsausträger arbeitet?",
+    "question": "Wie sehr legt sich Anastasia mit ihrer Äußerung darauf fest, dass es auf Konstantin zutrifft, dass er als Zeitungsausträger arbeitet?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": "gar nicht"
@@ -894,7 +894,7 @@ const maintrials_PJ = [
     "triggerWord": "Neutral",
     "meaningComponent": "TQ1",
     "QUD": "<b>Rupert</b>: <I>„Repariert Vivian häufiger Rasenmäher?\"</I>",
-    "question": "Wie sehr legt sich Rupert mit seiner Frage darauf fest, dass es auf Vivian zutrifft, dass sie häufiger Rasenmäher repariert?",
+    "question": "Wie sehr legt sich Rupert mit seiner Äußerung darauf fest, dass es auf Vivian zutrifft, dass sie häufiger Rasenmäher repariert?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": "gar nicht"
@@ -906,7 +906,7 @@ const maintrials_PJ = [
     "triggerWord": "Neutral",
     "meaningComponent": "TQ2",
     "QUD": "<b>Rupert</b>: <I>„Repariert Vivian häufiger Rasenmäher?\"</I>",
-    "question": "Wie sehr legt sich Rupert mit seiner Frage darauf fest, dass es auf Vivian zutrifft, dass sie einen Rasenmäher besitzt?",
+    "question": "Wie sehr legt sich Rupert mit seiner Äußerung darauf fest, dass es auf Vivian zutrifft, dass sie einen Rasenmäher besitzt?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": "gar nicht"
@@ -918,7 +918,7 @@ const maintrials_PJ = [
     "triggerWord": "Weil",
     "meaningComponent": "TQ1",
     "QUD": "<b>Noah</b>: <I>„Findet Annika die Fahrpläne der Regionalbahn übersichtlich, weil sie dort als Zugbegleiterin arbeitet?\"</I>",
-    "question": "Wie sehr legt sich Noah mit seiner Frage darauf fest, dass es auf Annika zutrifft, dass sie bei der Regionalbahn arbeitet?",
+    "question": "Wie sehr legt sich Noah mit seiner Äußerung darauf fest, dass es auf Annika zutrifft, dass sie bei der Regionalbahn arbeitet?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": "voll und ganz"
@@ -930,7 +930,7 @@ const maintrials_PJ = [
     "triggerWord": "Weil",
     "meaningComponent": "TQ2",
     "QUD": "<b>Noah</b>: <I>„Findet Annika die Fahrpläne der Regionalbahn übersichtlich, weil sie dort als Zugbegleiterin arbeitet?\"</I>",
-    "question": "Wie sehr legt sich Noah mit seiner Frage darauf fest, dass es auf Annika zutrifft, dass sie als Zugbegleiterin arbeitet?",
+    "question": "Wie sehr legt sich Noah mit seiner Äußerung darauf fest, dass es auf Annika zutrifft, dass sie als Zugbegleiterin arbeitet?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": "voll und ganz"
@@ -942,7 +942,7 @@ const maintrials_PJ = [
     "triggerWord": "Weil",
     "meaningComponent": "TQ3",
     "QUD": "<b>Noah</b>: <I>„Findet Annika die Fahrpläne der Regionalbahn übersichtlich, weil sie dort als Zugbegleiterin arbeitet?\"</I>",
-    "question": "Wie sehr legt sich Noah mit seiner Frage darauf fest, dass es auf Annika zutrifft, dass sie einen Beruf ausübt?",
+    "question": "Wie sehr legt sich Noah mit seiner Äußerung darauf fest, dass es auf Annika zutrifft, dass sie einen Beruf ausübt?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": "voll und ganz"
@@ -954,7 +954,7 @@ const maintrials_PJ = [
     "triggerWord": "Neutral",
     "meaningComponent": "TQ1",
     "QUD": "<b>Marina</b>: <I>„Jätet Tobias öfter im Garten Unkraut?\"</I>",
-    "question": "Wie sehr legt sich Marina mit ihrer Frage darauf fest, dass es auf Tobias zutrifft, dass er öfter im Garten Unkraut jätet?",
+    "question": "Wie sehr legt sich Marina mit ihrer Äußerung darauf fest, dass es auf Tobias zutrifft, dass er öfter im Garten Unkraut jätet?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": "gar nicht"
@@ -966,7 +966,7 @@ const maintrials_PJ = [
     "triggerWord": "Neutral",
     "meaningComponent": "TQ2",
     "QUD": "<b>Marina</b>: <I>„Jätet Tobias öfter im Garten Unkraut?\"</I>",
-    "question": "Wie sehr legt sich Marina mit ihrer Frage darauf fest, dass es auf Tobias zutrifft, dass er einen Garten gekauft hat?",
+    "question": "Wie sehr legt sich Marina mit ihrer Äußerung darauf fest, dass es auf Tobias zutrifft, dass er einen Garten gekauft hat?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": "gar nicht"
@@ -978,7 +978,7 @@ const maintrials_PJ = [
     "triggerWord": "Neutral",
     "meaningComponent": "TQ3",
     "QUD": "<b>Marina</b>: <I>„Jätet Tobias öfter im Garten Unkraut?\"</I>",
-    "question": "Wie sehr legt sich Marina mit ihrer Frage darauf fest, dass es auf Tobias zutrifft, dass er Gärtner ist?",
+    "question": "Wie sehr legt sich Marina mit ihrer Äußerung darauf fest, dass es auf Tobias zutrifft, dass er Gärtner ist?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": "gar nicht"
@@ -990,7 +990,7 @@ const maintrials_PJ = [
     "triggerWord": "Weil",
     "meaningComponent": "TQ1",
     "QUD": "<b>Bernd</b>: <I>„Hält Rosalie das neue Ausleihsystem der Bibliothek für gelungen, weil sie dort als Bibliothekarin arbeitet?\"</I>",
-    "question": "Wie sehr legt sich Bernd mit seiner Frage darauf fest, dass es auf Rosalie zutrifft, dass sie in der Bibliothek arbeitet?",
+    "question": "Wie sehr legt sich Bernd mit seiner Äußerung darauf fest, dass es auf Rosalie zutrifft, dass sie in der Bibliothek arbeitet?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": "voll und ganz"
@@ -1002,7 +1002,7 @@ const maintrials_PJ = [
     "triggerWord": "Weil",
     "meaningComponent": "TQ2",
     "QUD": "<b>Bernd</b>: <I>„Hält Rosalie das neue Ausleihsystem der Bibliothek für gelungen, weil sie dort als Bibliothekarin arbeitet?\"</I>",
-    "question": "Wie sehr legt sich Bernd mit seiner Frage darauf fest, dass es auf Rosalie zutrifft, dass sie als Bibliothekarin arbeitet?",
+    "question": "Wie sehr legt sich Bernd mit seiner Äußerung darauf fest, dass es auf Rosalie zutrifft, dass sie als Bibliothekarin arbeitet?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": "voll und ganz"
@@ -1014,7 +1014,7 @@ const maintrials_PJ = [
     "triggerWord": "Neutral",
     "meaningComponent": "TQ1",
     "QUD": "<b>Gudrun</b>: <I>„Schaukelt Fabian gerade auf dem Spielplatz?\"</I>",
-    "question": "Wie sehr legt sich Gudrun mit ihrer Frage darauf fest, dass es auf Fabian zutrifft, dass er ein Erwachsener ist?",
+    "question": "Wie sehr legt sich Gudrun mit ihrer Äußerung darauf fest, dass es auf Fabian zutrifft, dass er ein Erwachsener ist?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": "gar nicht"
@@ -1026,7 +1026,7 @@ const maintrials_PJ = [
     "triggerWord": "Neutral",
     "meaningComponent": "TQ2",
     "QUD": "<b>Gudrun</b>: <I>„Schaukelt Fabian gerade auf dem Spielplatz?\"</I>",
-    "question": "Wie sehr legt sich Gudrun mit ihrer Frage darauf fest, dass es auf Fabian zutrifft, dass er gerade auf dem Spielplatz schaukelt?",
+    "question": "Wie sehr legt sich Gudrun mit ihrer Äußerung darauf fest, dass es auf Fabian zutrifft, dass er gerade auf dem Spielplatz schaukelt?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": "gar nicht"
@@ -1038,7 +1038,7 @@ const maintrials_PJ = [
     "triggerWord": "Weil",
     "meaningComponent": "TQ1",
     "QUD": "<b>Magnus</b>: <I>„Empfindet Simone ihre Arbeit im Büro als anstrengend, weil sie in einem Großraumbüro arbeitet?\"</I>",
-    "question": "Wie sehr legt sich Magnus mit seiner Frage darauf fest, dass es auf Simone zutrifft, dass sie in einem Großraumbüro arbeitet?",
+    "question": "Wie sehr legt sich Magnus mit seiner Äußerung darauf fest, dass es auf Simone zutrifft, dass sie in einem Großraumbüro arbeitet?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": "voll und ganz"
@@ -1050,7 +1050,7 @@ const maintrials_PJ = [
     "triggerWord": "Weil",
     "meaningComponent": "TQ2",
     "QUD": "<b>Magnus</b>: <I>„Empfindet Simone ihre Arbeit im Büro als anstrengend, weil sie in einem Großraumbüro arbeitet?\"</I>",
-    "question": "Wie sehr legt sich Magnus mit seiner Frage darauf fest, dass es auf Simone zutrifft, dass sie in einem Einzelbüro arbeitet?",
+    "question": "Wie sehr legt sich Magnus mit seiner Äußerung darauf fest, dass es auf Simone zutrifft, dass sie in einem Einzelbüro arbeitet?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": "gar nicht"
@@ -1062,7 +1062,7 @@ const maintrials_PJ = [
     "triggerWord": "Weil",
     "meaningComponent": "TQ3",
     "QUD": "<b>Magnus</b>: <I>„Empfindet Simone ihre Arbeit im Büro als anstrengend, weil sie in einem Großraumbüro arbeitet?\"</I>",
-    "question": "Wie sehr legt sich Magnus mit seiner Frage darauf fest, dass es auf Simone zutrifft, dass sie einer Arbeit nachgeht?",
+    "question": "Wie sehr legt sich Magnus mit seiner Äußerung darauf fest, dass es auf Simone zutrifft, dass sie einer Arbeit nachgeht?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": "voll und ganz"
@@ -1074,7 +1074,7 @@ const maintrials_PJ = [
     "triggerWord": "Neutral",
     "meaningComponent": "TQ1",
     "QUD": "<b>Reinhold</b>: <I>„Kocht Frederike gerne?\"</I>",
-    "question": "Wie sehr legt sich Reinhold mit seiner Frage darauf fest, dass es auf Frederike zutrifft, dass sie gerne kocht?",
+    "question": "Wie sehr legt sich Reinhold mit seiner Äußerung darauf fest, dass es auf Frederike zutrifft, dass sie gerne kocht?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": "gar nicht"
@@ -1086,7 +1086,7 @@ const maintrials_PJ = [
     "triggerWord": "Neutral",
     "meaningComponent": "TQ2",
     "QUD": "<b>Reinhold</b>: <I>„Kocht Frederike gerne?\"</I>",
-    "question": "Wie sehr legt sich Reinhold mit seiner Frage darauf fest, dass es auf Frederike zutrifft, dass sie Köchin ist?",
+    "question": "Wie sehr legt sich Reinhold mit seiner Äußerung darauf fest, dass es auf Frederike zutrifft, dass sie Köchin ist?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": "gar nicht"
@@ -1098,7 +1098,7 @@ const maintrials_PJ = [
     "triggerWord": "Weil",
     "meaningComponent": "TQ1",
     "QUD": "<b>Melina</b>: <I>„Hält Julius Ordnung an seinem Arbeitsplatz für wichtig, weil er als Laborant in einem großen Unternehmen tätig ist?\"</I>",
-    "question": "Wie sehr legt sich Melina mit ihrer Frage darauf fest, dass es auf Julius zutrifft, dass er als Laborant arbeitet?",
+    "question": "Wie sehr legt sich Melina mit ihrer Äußerung darauf fest, dass es auf Julius zutrifft, dass er als Laborant arbeitet?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": "voll und ganz"
@@ -1110,7 +1110,7 @@ const maintrials_PJ = [
     "triggerWord": "Weil",
     "meaningComponent": "TQ2",
     "QUD": "<b>Melina</b>: <I>„Hält Julius Ordnung an seinem Arbeitsplatz für wichtig, weil er als Laborant in einem großen Unternehmen tätig ist?\"</I>",
-    "question": "Wie sehr legt sich Melina mit ihrer Frage darauf fest, dass es auf Julius zutrifft, dass er in einem kleinen Unternehmen arbeitet?",
+    "question": "Wie sehr legt sich Melina mit ihrer Äußerung darauf fest, dass es auf Julius zutrifft, dass er in einem kleinen Unternehmen arbeitet?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": "gar nicht"
@@ -1122,7 +1122,7 @@ const maintrials_PJ = [
     "triggerWord": "Neutral",
     "meaningComponent": "TQ1",
     "QUD": "<b>Ariane</b>: <I> „Fährt Bastian heute Fahrrad?“</I>",
-    "question": "Wie sehr legt sich Ariane mit ihrer Frage darauf fest, dass es auf Bastian zutrifft, dass er heute Fahrrad fährt?",
+    "question": "Wie sehr legt sich Ariane mit ihrer Äußerung darauf fest, dass es auf Bastian zutrifft, dass er heute Fahrrad fährt?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": "gar nicht"
@@ -1134,7 +1134,7 @@ const maintrials_PJ = [
     "triggerWord": "Neutral",
     "meaningComponent": "TQ2",
     "QUD": "<b>Ariane</b>: <I> „Fährt Bastian heute Fahrrad?“</I>",
-    "question": "Wie sehr legt sich Ariane mit ihrer Frage darauf fest, dass es auf Bastian zutrifft, dass er nie Fahrrad fährt?",
+    "question": "Wie sehr legt sich Ariane mit ihrer Äußerung darauf fest, dass es auf Bastian zutrifft, dass er nie Fahrrad fährt?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": "gar nicht"
@@ -1146,7 +1146,7 @@ const maintrials_PJ = [
     "triggerWord": "Neutral",
     "meaningComponent": "TQ3",
     "QUD": "<b>Ariane</b>: <I> „Fährt Bastian heute Fahrrad?“</I>",
-    "question": "Wie sehr legt sich Ariane mit ihrer Frage darauf fest, dass es auf Bastian zutrifft, dass er regelmäßig Fahrrad fährt?",
+    "question": "Wie sehr legt sich Ariane mit ihrer Äußerung darauf fest, dass es auf Bastian zutrifft, dass er regelmäßig Fahrrad fährt?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": "gar nicht"
@@ -1158,7 +1158,7 @@ const maintrials_PJ = [
     "triggerWord": "Neutral",
     "meaningComponent": "TQ1",
     "QUD": "<b>Lorenz</b>: <I>„Hat Henrike die Prüfung nicht bestanden?\"</I>",
-    "question": "Wie sehr legt sich Lorenz mit seiner Frage darauf fest, dass es auf Henrike zutrifft, dass sie die Prüfung nicht bestanden hat?",
+    "question": "Wie sehr legt sich Lorenz mit seiner Äußerung darauf fest, dass es auf Henrike zutrifft, dass sie die Prüfung nicht bestanden hat?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": "gar nicht"
@@ -1170,7 +1170,7 @@ const maintrials_PJ = [
     "triggerWord": "Neutral",
     "meaningComponent": "TQ2",
     "QUD": "<b>Lorenz</b>: <I>„Hat Henrike die Prüfung nicht bestanden?\"</I>",
-    "question": "Wie sehr legt sich Lorenz mit seiner Frage darauf fest, dass es auf Henrike zutrifft, dass sie einen Abschluss hat?",
+    "question": "Wie sehr legt sich Lorenz mit seiner Äußerung darauf fest, dass es auf Henrike zutrifft, dass sie einen Abschluss hat?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": "gar nicht"
@@ -1182,7 +1182,7 @@ const maintrials_PJ = [
     "triggerWord": "Weil",
     "meaningComponent": "TQ1",
     "QUD": "<b>Martina</b>: <I>„Empfinden alle Kellner Trinkgeld als selbstverständlich, weil sie in Restaurants mit viel Kundenkontakt arbeiten?\"</I>",
-    "question": "Wie sehr legt sich Martina mit ihrer Frage darauf fest, dass es auf alle Kellner zutrifft, dass sie in Food-Trucks arbeiten?",
+    "question": "Wie sehr legt sich Martina mit ihrer Äußerung darauf fest, dass es auf alle Kellner zutrifft, dass sie in Food-Trucks arbeiten?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": "gar nicht"
@@ -1194,7 +1194,7 @@ const maintrials_PJ = [
     "triggerWord": "Weil",
     "meaningComponent": "TQ2",
     "QUD": "<b>Martina</b>: <I>„Empfinden alle Kellner Trinkgeld als selbstverständlich, weil sie in Restaurants mit viel Kundenkontakt arbeiten?\"</I>",
-    "question": "Wie sehr legt sich Martina mit ihrer Frage darauf fest, dass es auf alle Kellner zutrifft, dass sie wenig Kundenkontakt haben?",
+    "question": "Wie sehr legt sich Martina mit ihrer Äußerung darauf fest, dass es auf alle Kellner zutrifft, dass sie wenig Kundenkontakt haben?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": "gar nicht"
@@ -1206,7 +1206,7 @@ const maintrials_PJ = [
     "triggerWord": "Neutral",
     "meaningComponent": "TQ1",
     "QUD": "<b>Ferdinand</b>: <I>„Verkauft jede Floristin ausschließlich Rosen?\"</I>",
-    "question": "Wie sehr legt sich Ferdinand mit seiner Frage darauf fest, dass es auf jede Floristin zutrifft, dass sie auch andere Blumen als Rosen verkauft?",
+    "question": "Wie sehr legt sich Ferdinand mit seiner Äußerung darauf fest, dass es auf jede Floristin zutrifft, dass sie auch andere Blumen als Rosen verkauft?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": "gar nicht"
@@ -1218,7 +1218,7 @@ const maintrials_PJ = [
     "triggerWord": "Neutral",
     "meaningComponent": "TQ2",
     "QUD": "<b>Ferdinand</b>: <I>„Verkauft jede Floristin ausschließlich Rosen?\"</I>",
-    "question": "Wie sehr legt sich Ferdinand mit seiner Frage darauf fest, dass es auf jede Floristin zutrifft, dass sie keine Rosen verkauft?",
+    "question": "Wie sehr legt sich Ferdinand mit seiner Äußerung darauf fest, dass es auf jede Floristin zutrifft, dass sie keine Rosen verkauft?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": "gar nicht"
@@ -1230,7 +1230,7 @@ const maintrials_PJ = [
     "triggerWord": "Neutral",
     "meaningComponent": "TQ1",
     "QUD": "<b>Waltraud</b>: <I>„Arbeiten alle Bibliothekare nur am Wochenende?\"</I>",
-    "question": "Wie sehr legt sich Waltraud mit ihrer Frage darauf fest, dass es auf alle Bibliothekare zutrifft, dass sie unter der Woche arbeiten?",
+    "question": "Wie sehr legt sich Waltraud mit ihrer Äußerung darauf fest, dass es auf alle Bibliothekare zutrifft, dass sie unter der Woche arbeiten?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": "gar nicht"
@@ -1242,7 +1242,7 @@ const maintrials_PJ = [
     "triggerWord": "Neutral",
     "meaningComponent": "TQ2",
     "QUD": "<b>Waltraud</b>: <I>„Arbeiten alle Bibliothekare nur am Wochenende?\"</I>",
-    "question": "Wie sehr legt sich Waltraud mit ihrer Frage darauf fest, dass es auf alle Bibliothekare zutrifft, dass sie am Wochenende frei haben?",
+    "question": "Wie sehr legt sich Waltraud mit ihrer Äußerung darauf fest, dass es auf alle Bibliothekare zutrifft, dass sie am Wochenende frei haben?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": "gar nicht"
@@ -1254,7 +1254,7 @@ const maintrials_PJ = [
     "triggerWord": "Neutral",
     "meaningComponent": "TQ3",
     "QUD": "<b>Waltraud</b>: <I>„Arbeiten alle Bibliothekare nur am Wochenende?\"</I>",
-    "question": "Wie sehr legt sich Waltraud mit ihrer Frage darauf fest, dass es auf alle Bibliothekare zutrifft, dass sie gar nicht arbeiten?",
+    "question": "Wie sehr legt sich Waltraud mit ihrer Äußerung darauf fest, dass es auf alle Bibliothekare zutrifft, dass sie gar nicht arbeiten?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": "gar nicht"
@@ -1266,7 +1266,7 @@ const maintrials_PJ = [
     "triggerWord": "Weil",
     "meaningComponent": "TQ1",
     "QUD": "<b>Sibylle</b>: <I>„Empfinden alle Feuerwehrleute ihren Beruf als sinnstiftend, weil sie regelmäßig Menschen in Notlagen helfen?\"</I>",
-    "question": "Wie sehr legt sich Sibylle mit ihrer Frage darauf fest, dass es auf alle Feuerwehrleute zutrifft, dass sie nie Menschen in Notlagen helfen?",
+    "question": "Wie sehr legt sich Sibylle mit ihrer Äußerung darauf fest, dass es auf alle Feuerwehrleute zutrifft, dass sie nie Menschen in Notlagen helfen?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": "gar nicht"
@@ -1278,7 +1278,7 @@ const maintrials_PJ = [
     "triggerWord": "Weil",
     "meaningComponent": "TQ2",
     "QUD": "<b>Sibylle</b>: <I>„Empfinden alle Feuerwehrleute ihren Beruf als sinnstiftend, weil sie regelmäßig Menschen in Notlagen helfen?\"</I>",
-    "question": "Wie sehr legt sich Sibylle mit ihrer Frage darauf fest, dass es auf alle Feuerwehrleute zutrifft, dass sie selten Menschen in Notlagen helfen?",
+    "question": "Wie sehr legt sich Sibylle mit ihrer Äußerung darauf fest, dass es auf alle Feuerwehrleute zutrifft, dass sie selten Menschen in Notlagen helfen?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": "gar nicht"
@@ -1290,7 +1290,7 @@ const maintrials_PJ = [
     "triggerWord": "Weil",
     "meaningComponent": "TQ1",
     "QUD": "<b>Matthias</b>: <I>„Findet Laura den neuen Dienstplan angenehm, weil sie dadurch nur vier Tage pro Woche arbeitet?“</I>",
-    "question": "Wie sehr legt sich Matthias mit seiner Frage darauf fest, dass es auf Laura zutrifft, dass sie durch den neuen Dienstplan nur vier Tage pro Woche arbeitet?",
+    "question": "Wie sehr legt sich Matthias mit seiner Äußerung darauf fest, dass es auf Laura zutrifft, dass sie durch den neuen Dienstplan nur vier Tage pro Woche arbeitet?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": "voll und ganz"
@@ -1302,7 +1302,7 @@ const maintrials_PJ = [
     "triggerWord": "Weil",
     "meaningComponent": "TQ2",
     "QUD": "<b>Matthias</b>: <I>„Findet Laura den neuen Dienstplan angenehm, weil sie dadurch nur vier Tage pro Woche arbeitet?“</I>",
-    "question": "Wie sehr legt sich Matthias mit seiner Frage darauf fest, dass es auf Laura zutrifft, dass sie durch den neuen Dienstplan weniger als fünf Tage pro Woche arbeitet?",
+    "question": "Wie sehr legt sich Matthias mit seiner Äußerung darauf fest, dass es auf Laura zutrifft, dass sie durch den neuen Dienstplan weniger als fünf Tage pro Woche arbeitet?",
     "optionLeft": "gar nicht",
     "optionRight": "voll und ganz",
     "correctAnswer": "voll und ganz"
