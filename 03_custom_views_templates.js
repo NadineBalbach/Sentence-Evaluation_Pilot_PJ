@@ -393,7 +393,7 @@ function item_progress_stack_gen(config, CT) {
     for (let i = total; i >= 1; i--) {
         const offset = (total - i) * 3; // px, creates the fanned-out stack look
         const isCurrent = i === idx;
-        const style = `right:${offset}px; top:${offset}px; z-index:${100 - i};`;
+        const style = `right:${offset}px; top:${offset}px; z-index:${isCurrent ? 200 : 100 - i};`;
         sheetsHtml += `<div class="magpie-item-progress-sheet${isCurrent ? ' current' : ''}" style="${style}">${isCurrent ? idx : ''}</div>`;
     }
 

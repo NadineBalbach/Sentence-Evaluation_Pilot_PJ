@@ -82,7 +82,7 @@ const practice_trials = {
             question: "Wie sehr legt sich Angelika mit ihrer Äußerung darauf fest, dass es auf Kilian zutrifft, dass er gestern schwarz getragen hat?",
             optionLeft: "gar nicht",
             optionRight: "voll und ganz",
-            explanation: "Da Angelika mit ihrem Zusatz „so wie gestern“ eine Aussage macht, legt sie sich damit darauf fest, dass es auf Kilian zutrifft, dass er gestern schwarz getragen hat. Der Regler müsste daher nah zu „voll und ganz“.",
+            explanation: "Da Angelika mit ihrem Zusatz „so wie gestern“ eine Aussage macht, legt sie sich damit darauf fest, dass es auf Kilian zutrifft, dass er gestern schwarz getragen hat. Der Regler müsste daher weit nach rechts zu „voll und ganz“.",
             trigger: "practice",
             condition: "2",
             questionIndexInItem: 2,
