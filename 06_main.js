@@ -16,17 +16,17 @@ $("document").ready(function() {
         // You have to specify all views you want to use in this experiment and the order of them
         views_seq: [
             intro,
-            //participantInfo,
-            //consentForm,
+            participantInfo,
+            consentForm,
             attentionChecks,
-            //instructions,
+            instructions,
             instructionsPracticeTrial,
             practiceSlider_rating,
-            //uebungsende,
+            uebungsende,
             instructionsRatingScale,
             slider_rating,
-            //instructionsPostTest,
-            //post_test,
+            instructionsPostTest,
+            post_test,
             thanks
             ],
         // Here, you can specify all information for the deployment
