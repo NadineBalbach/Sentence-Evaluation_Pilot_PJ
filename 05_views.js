@@ -23,7 +23,7 @@ const intro = magpieViews.view_generator("intro", {
   trials: 1,
   name: "intro",
   text: `<p>Bitte setzen Sie sich zur Bearbeitung der folgenden Studie in einen ruhigen Raum.
-      Führen Sie die Studie am PC durch (nicht am Tablet oder einem Smartphone).
+      Führen Sie die Studie am PC durch, nicht am Tablet oder einem Smartphone.
       Bitte schließen Sie jetzt alle im Hintergrund laufenden Programme oder Anwendungen
       und lassen Sie diese bis zum Ende der Studie geschlossen.
       Schalten Sie bitte auch ihr Mobilfunkgerät / Smartphone aus.
@@ -72,6 +72,7 @@ const participantInfo = magpieViews.view_generator("instructions", {
 		<p><strong>Was geschieht mit den Daten?</strong></p>
 		<p>Im Rahmen der Studie werden personenbezogene Daten (Alter, Geschlecht, Händigkeit, sprachlicher Hintergrund, Bildung und Fragen zum Studium sowie eigene Kommentare zum Experiment)
     sowie Ihre Prolific ID erhoben und verarbeitet.<br/>
+    Diese Angaben erheben wir aus zwei Gründen: Zum einen können individuelle Eigenschaften wie sprachlicher Hintergrund, Bildungshintergrund oder andere demografische Merkmale Einfluss auf sprachliches Urteilsverhalten haben. Zum anderen können auch Eigenschaften, die die Bedienung des Reglers betreffen, wie etwa Händigkeit, die gemessenen Reaktionszeiten beeinflussen. Die Erhebung erlaubt es uns, solche Einflüsse zu erkennen und bei der Auswertung angemessen zu berücksichtigen, um die Ergebnisse korrekt interpretieren zu können.<br/>
 		Diese personenbezogenen Daten werden zusammen mit den Antworten im Experiment auf einem Server der Universität Tübingen abgespeichert.<br/>
 		IP-Adressen, MAC-Adressen oder Ortungs-Daten sind im Rahmen der Studien nicht relevant und werden demnach nicht erhoben.<br/>
 		Sie haben die Möglichkeit, die Löschung Ihrer Daten zu veranlassen, indem Sie uns zusammen mit der Angabe Ihrer Prolific ID eine E-Mail an nadine.balbach@uni-tuebingen.de oder eine Nachricht über Prolific senden.<br/>
