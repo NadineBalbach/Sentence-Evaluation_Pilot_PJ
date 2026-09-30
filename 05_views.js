@@ -90,7 +90,7 @@ const participantInfo = magpieViews.view_generator("instructions", {
     <p>&nbsp;</p>
 		<p><strong>Kann ich von der Teilnahme zurücktreten?</strong></p>
 		<p>Ja, Sie können das Experiment, bis Sie den letzten Button &bdquo;CONFIRM&ldquo; betätigen, jederzeit und ohne Angabe von Gründen abbrechen, ohne dass Ihnen daraus Nachteile entstehen. Die Daten werden dann nicht gespeichert.</p>
-		<p>Sie erhalten dann trotzdem die entsprechende Vergütung für die bis dahin vergangene Zeit.
+		<p>Sie erhalten dann trotzdem für die bis dahin vergangene Zeit das entsprechende Versuchspersonengeld.
     Bitte schreiben Sie uns in diesem Fall eine Nachricht über Prolific.</p>
 		<p>&nbsp;</p>
 		<p><strong>Warum soll ich teilnehmen?</strong></p>
