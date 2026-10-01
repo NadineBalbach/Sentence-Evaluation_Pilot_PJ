@@ -30,8 +30,8 @@ const intro = magpieViews.view_generator("intro", {
       Bitte konzentrieren Sie sich so gut wie möglich.</p>
       <p><strong>Wichtiger Hinweis:</strong> Bitte bearbeiten Sie das Experiment eigenständig und ohne Zuhilfenahme von
       KI-Anwendungen (z.\u00a0B. ChatGPT oder ähnliche Tools). Unsere Studie untersucht, wie Menschen Sprache verstehen und
-      bewerten - von einer KI erzeugte Antworten würden unsere Ergebnisse verfälschen und wären für unsere Forschung nicht
-      verwertbar. Bitte antworten Sie daher ausschließlich anhand Ihrer eigenen, persönlichen Einschätzung.</p>`,
+      beurteilen - von einer KI erzeugte Antworten würden unsere Ergebnisse verfälschen und wären für unsere Forschung nicht
+      verwendbar. Bitte antworten Sie daher ausschließlich anhand Ihrer eigenen, persönlichen Einschätzung.</p>`,
   // If you use JavaScripts Template String `I am a Template String`, you can use HTML <></> and javascript ${} inside
   title: `Herzlich willkommen zu unserem Experiment!`,
   buttonText: "Weiter"
@@ -46,8 +46,8 @@ const participantInfo = magpieViews.view_generator("instructions", {
 		Die Teilnahme ist freiwillig.</p>
 		<p>&nbsp;</p>
 		<p><strong>Was wird untersucht?</strong></p>
-		<p>Diese Studie dient dazu herauszufinden, wie Muttersprachler unterschiedliche Frageinhalte in Bezug auf zuvor gelesene Äußerungen bewerten.
-    Mithilfe dieser Bewertungen versuchen wir theoretische Annahmen linguistischer Phänomene experimentell zu untersuchen.
+		<p>Diese Studie dient dazu herauszufinden, wie Muttersprachler unterschiedliche Frageinhalte in Bezug auf zuvor gelesene Äußerungen beurteilen.
+    Mithilfe dieser Beurteilungen versuchen wir theoretische Annahmen linguistischer Phänomene experimentell zu untersuchen.
     Falls Sie mehr über die Studie erfahren möchten, können Sie im Anschluss an das Experiment eine E-Mail an nadine.balbach@uni-tuebingen.de senden.
     </p>
 		<p>&nbsp;</p>
@@ -125,7 +125,7 @@ const instructions = magpieViews.view_generator("instructions", {
   text: `Zunächst werden Sie zwei Übungsdurchgänge absolvieren, um sich mit der Vorgehensweise im Experiment vertraut zu machen.
       Ihr Fortschritt in den Übungen und im Experiment wird jeweils durch einen Balken rechts oben dargestellt. Der Fortschritt eines Durchgangs wird zusätzlich gekennzeichnet.
   		<br />
-  		Sowohl in den Übungsdurchgängen als auch im Experiment geben Sie Bewertungen in Bezug auf eine zuvor gelesene Äußerung ab.
+  		Sowohl in den Übungsdurchgängen als auch im Experiment geben Sie Beurteilungen in Bezug auf eine zuvor gelesene Äußerung ab.
     	<br />
     	Im Anschluss an das Experiment bitten wir Sie, noch ein paar Fragen zu Ihrer Person auszufüllen.
     	 <br />
@@ -141,7 +141,7 @@ const instructionsPracticeTrial = magpieViews.view_generator("instructions", {
   title: "Hinweise zu den Übungsdurchgängen",
   text: `Stellen Sie sich für die folgenden Übungsdurchgänge und das Experiment vor, dass Sie auf einer Party sind. Auf dem Weg in die Küche hören Sie, wie sich eine Person mit einer anderen unterhält. Die Äußerung der Person bleibt dabei oben auf der Seite stehen, während sich die Fragen an Sie darunter ändern.
   <br />
-  Bewerten Sie jeweils, ${RATING_PHRASE} die Person mit ihrer Äußerung darauf festlegt, dass ein bestimmter Sachverhalt zutrifft. Beantworten Sie dies, indem Sie einen Regler auf einer Leiste nach links für „${SCALE_LEFT}“ und nach rechts für „${SCALE_RIGHT}“ verschieben. Bitte machen Sie Ihre Bewertung jeweils anhand der Äußerung, die oben auf der Seite stehen bleibt. Die Anzahl der Fragen pro Durchgang wird Ihnen rechts oben angezeigt.
+  beurteilen Sie jeweils, ${RATING_PHRASE} die Person mit ihrer Äußerung darauf festlegt, dass ein bestimmter Sachverhalt zutrifft. Beantworten Sie dies, indem Sie einen Regler auf einer Leiste nach links für „${SCALE_LEFT}“ und nach rechts für „${SCALE_RIGHT}“ verschieben. Bitte machen Sie Ihre Beurteilung jeweils anhand der Äußerung, die oben auf der Seite stehen bleibt. Die Anzahl der Fragen pro Durchgang wird Ihnen rechts oben angezeigt.
   <br /><br />
   Bitte benutzen Sie keine AI/KI oder externe Webseiten; wir sind an Ihrer eigenen Meinung interessiert. Die Beantwortung mit Bots würde unsere Ergebnisse verfälschen und uns nicht weiterhelfen.`,
   buttonText: "Übungsdurchgänge beginnen"
@@ -160,14 +160,14 @@ const instructionsRatingScale = magpieViews.view_generator("instructions", {
   trials: 1,
   name: "instructions_rating_scale",
   title: "Hinweis zum Experiment",
-  text: `Sie werden nun 48 Äußerungen lesen und dazu jeweils zu 2-3 Fragen Bewertungen abgeben. Insgesamt sind es ${main_trial_new.length} Bewertungen.
-  Bei einigen wenigen, zufällig ausgewählten Fragen werden Sie zusätzlich gebeten, kurz zu kommentieren, warum Sie so bewertet haben.
-  Das ist gewollt und dient nur unserem besseren Verständnis Ihrer Bewertungen.
+  text: `Sie werden nun 48 Äußerungen lesen und dazu jeweils zu 2-3 Fragen Beurteilungen abgeben. Insgesamt sind es ${main_trial_new.length} Beurteilungen.
+  Bei einigen wenigen, zufällig ausgewählten Fragen werden Sie zusätzlich gebeten, kurz zu kommentieren, warum Sie so beurteilt haben.
+  Das ist gewollt und dient nur unserem besseren Verständnis Ihrer Beurteilungen.
   Wie bereits in den Übungsdurchgängen, stellen Sie sich vor, dass Sie auf einer Party sind und auf dem Weg in die Küche hören, wie sich eine Person mit einer anderen unterhält.
   Die Äußerung der Person bleibt dabei oben auf der Seite stehen, während sich die Fragen an Sie darunter ändern.
-  Sie bewerten, wie in den Übungsdurchgängen, ${RATING_PHRASE} die Person mit ihrer Äußerung darauf festlegt, dass ein bestimmter Sachverhalt zutrifft.
+  Sie beurteilen, wie in den Übungsdurchgängen, ${RATING_PHRASE} die Person mit ihrer Äußerung darauf festlegt, dass ein bestimmter Sachverhalt zutrifft.
   Beantworten Sie dies, indem Sie den Regler auf der Leiste nach links für „${SCALE_LEFT}“ und nach rechts für „${SCALE_RIGHT}“ verschieben.
-  Bitte machen Sie Ihre Bewertung jeweils anhand der Äußerung, die oben auf der Seite stehen bleibt.
+  Bitte machen Sie Ihre Beurteilung jeweils anhand der Äußerung, die oben auf der Seite stehen bleibt.
   <br /><br />
   Bitte benutzen Sie keine AI/KI oder externe Webseiten; wir sind an Ihrer eigenen Meinung interessiert! Die Beantwortung mit Bots würde unsere Ergebnisse verfälschen und uns nicht weiterhelfen.
   <br /><br />
